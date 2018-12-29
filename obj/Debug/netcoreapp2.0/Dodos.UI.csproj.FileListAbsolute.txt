@@ -1,0 +1,31 @@
+E:\workspace\DotNet\new\15-11-2017\Dodos.UI\bin\Debug\netcoreapp2.0\Dodos.UI.deps.json
+E:\workspace\DotNet\new\15-11-2017\Dodos.UI\bin\Debug\netcoreapp2.0\Dodos.UI.runtimeconfig.json
+E:\workspace\DotNet\new\15-11-2017\Dodos.UI\bin\Debug\netcoreapp2.0\Dodos.UI.runtimeconfig.dev.json
+E:\workspace\DotNet\new\15-11-2017\Dodos.UI\bin\Debug\netcoreapp2.0\Dodos.UI.dll
+E:\workspace\DotNet\new\15-11-2017\Dodos.UI\bin\Debug\netcoreapp2.0\Dodos.UI.pdb
+E:\workspace\DotNet\new\15-11-2017\Dodos.UI\obj\Debug\netcoreapp2.0\Dodos.UI.csproj.CoreCompileInputs.cache
+E:\workspace\DotNet\new\15-11-2017\Dodos.UI\obj\Debug\netcoreapp2.0\Dodos.UI.AssemblyInfoInputs.cache
+E:\workspace\DotNet\new\15-11-2017\Dodos.UI\obj\Debug\netcoreapp2.0\Dodos.UI.AssemblyInfo.cs
+E:\workspace\DotNet\new\15-11-2017\Dodos.UI\obj\Debug\netcoreapp2.0\Dodos.UI.dll
+E:\workspace\DotNet\new\15-11-2017\Dodos.UI\obj\Debug\netcoreapp2.0\Dodos.UI.pdb
+E:\workspace\DotNet\new\15-11-2017\DodosV2\backup\basic angular and core api\Dodos.UI\bin\Debug\netcoreapp2.0\Dodos.UI.deps.json
+E:\workspace\DotNet\new\15-11-2017\DodosV2\backup\basic angular and core api\Dodos.UI\bin\Debug\netcoreapp2.0\Dodos.UI.runtimeconfig.json
+E:\workspace\DotNet\new\15-11-2017\DodosV2\backup\basic angular and core api\Dodos.UI\bin\Debug\netcoreapp2.0\Dodos.UI.runtimeconfig.dev.json
+E:\workspace\DotNet\new\15-11-2017\DodosV2\backup\basic angular and core api\Dodos.UI\bin\Debug\netcoreapp2.0\Dodos.UI.dll
+E:\workspace\DotNet\new\15-11-2017\DodosV2\backup\basic angular and core api\Dodos.UI\bin\Debug\netcoreapp2.0\Dodos.UI.pdb
+E:\workspace\DotNet\new\15-11-2017\DodosV2\backup\basic angular and core api\Dodos.UI\obj\Debug\netcoreapp2.0\Dodos.UI.csproj.CoreCompileInputs.cache
+E:\workspace\DotNet\new\15-11-2017\DodosV2\backup\basic angular and core api\Dodos.UI\obj\Debug\netcoreapp2.0\Dodos.UI.AssemblyInfoInputs.cache
+E:\workspace\DotNet\new\15-11-2017\DodosV2\backup\basic angular and core api\Dodos.UI\obj\Debug\netcoreapp2.0\Dodos.UI.AssemblyInfo.cs
+E:\workspace\DotNet\new\15-11-2017\DodosV2\backup\basic angular and core api\Dodos.UI\obj\Debug\netcoreapp2.0\Dodos.UI.dll
+E:\workspace\DotNet\new\15-11-2017\DodosV2\backup\basic angular and core api\Dodos.UI\obj\Debug\netcoreapp2.0\Dodos.UI.pdb
+E:\Maran\Dodos-core\Dodos.UI\obj\Debug\netcoreapp2.0\Dodos.UI.csprojAssemblyReference.cache
+E:\Maran\Dodos-core\Dodos.UI\obj\Debug\netcoreapp2.0\Dodos.UI.csproj.CoreCompileInputs.cache
+E:\Maran\Dodos-core\Dodos.UI\obj\Debug\netcoreapp2.0\Dodos.UI.AssemblyInfoInputs.cache
+E:\Maran\Dodos-core\Dodos.UI\obj\Debug\netcoreapp2.0\Dodos.UI.AssemblyInfo.cs
+E:\Maran\Dodos-core\Dodos.UI\bin\Debug\netcoreapp2.0\Dodos.UI.deps.json
+E:\Maran\Dodos-core\Dodos.UI\bin\Debug\netcoreapp2.0\Dodos.UI.runtimeconfig.json
+E:\Maran\Dodos-core\Dodos.UI\bin\Debug\netcoreapp2.0\Dodos.UI.runtimeconfig.dev.json
+E:\Maran\Dodos-core\Dodos.UI\bin\Debug\netcoreapp2.0\Dodos.UI.dll
+E:\Maran\Dodos-core\Dodos.UI\bin\Debug\netcoreapp2.0\Dodos.UI.pdb
+E:\Maran\Dodos-core\Dodos.UI\obj\Debug\netcoreapp2.0\Dodos.UI.dll
+E:\Maran\Dodos-core\Dodos.UI\obj\Debug\netcoreapp2.0\Dodos.UI.pdb

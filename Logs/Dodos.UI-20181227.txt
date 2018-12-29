@@ -1,0 +1,6 @@
+2018-12-27T19:25:52.4950182+05:30 0HLJC0C1RORGK:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (ca22a1cb)
+2018-12-27T19:25:52.5795356+05:30 0HLJC0C1RORGK:00000001 [INF] Sending file. Request path: '"/index.html"'. Physical path: '"E:\DODOS_Project\Dodos.UI\wwwroot\index.html"' (27b0a520)
+2018-12-27T19:25:52.6816407+05:30 0HLJC0C1RORGK:00000001 [INF] Request finished in 197.9241ms 200 text/html (791a596a)
+2018-12-27T19:26:47.0499976+05:30 0HLJC0CGPU04K:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Countries   (ca22a1cb)
+2018-12-27T19:26:56.1701031+05:30 0HLJC0CGPU04K:00000001 [INF] Executing action method "Dodos.UI.Controllers.CountriesController.GetAllCountries (Dodos.UI)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-12-27T19:27:07.6631886+05:30 0HLJC0CGPU04K:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)

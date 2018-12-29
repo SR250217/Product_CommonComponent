@@ -1,0 +1,839 @@
+2018-12-11T09:26:06.2051366+05:30 0HLIV3I067UQ3:00000001 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login/GetLoginDtails  0 (ca22a1cb)
+2018-12-11T09:26:06.5181486+05:30 0HLIV3I067UQ3:00000001 [INF] Request finished in 323.7177ms 200 text/html (791a596a)
+2018-12-11T09:26:51.5153176+05:30 0HLIV3I067UQ3:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login/GetLoginDtails multipart/form-data; boundary=--------------------------186980913860650384312537 283 (ca22a1cb)
+2018-12-11T09:26:51.5380088+05:30 0HLIV3I067UQ3:00000002 [INF] Request finished in 22.7381ms 200 text/html (791a596a)
+2018-12-11T09:28:14.5984277+05:30 0HLIV3JG399N3:00000001 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login/GetLoginDtails multipart/form-data; boundary=--------------------------798542788417901046107988 283 (ca22a1cb)
+2018-12-11T09:28:14.8405379+05:30 0HLIV3JG399N3:00000001 [INF] Request finished in 253.4311ms 200 text/html (791a596a)
+2018-12-11T09:29:46.8030579+05:30 0HLIV3KBIK324:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login/GetLoginDtails   (ca22a1cb)
+2018-12-11T09:29:47.0269008+05:30 0HLIV3KBIK324:00000001 [INF] Request finished in 234.295ms 200 text/html (791a596a)
+2018-12-11T09:30:05.4104034+05:30 0HLIV3KBIK324:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login   (ca22a1cb)
+2018-12-11T09:30:05.5922540+05:30 0HLIV3KBIK324:00000002 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-12-11T09:30:05.9940494+05:30 0HLIV3KBIK324:00000002 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MaxPoolSize=128 " (9958f5bb)
+2018-12-11T09:30:06.4479552+05:30 0HLIV3KBIK324:00000002 [INF] Executed DbCommand ("29"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE [x].[UserName] IS NULL AND [x].[Password] IS NULL" (0723d8ff)
+2018-12-11T09:30:06.4945283+05:30 0HLIV3KBIK324:00000002 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T09:30:06.5625430+05:30 0HLIV3KBIK324:00000002 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 1091.1451ms (afa2e885)
+2018-12-11T09:30:06.5656742+05:30 0HLIV3KBIK324:00000002 [INF] Request finished in 1155.3004ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T09:30:26.5684989+05:30 0HLIV3KBIK324:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login/GetLoginDtails  0 (ca22a1cb)
+2018-12-11T09:30:26.5694668+05:30 0HLIV3KBIK324:00000003 [INF] Request finished in 0.9896ms 200 text/html (791a596a)
+2018-12-11T09:30:56.9185452+05:30 0HLIV3KBIK324:00000004 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login/GetLoginDtails multipart/form-data; boundary=--------------------------786634585517443212213219 283 (ca22a1cb)
+2018-12-11T09:30:56.9364767+05:30 0HLIV3KBIK324:00000004 [INF] Request finished in 17.9583ms 200 text/html (791a596a)
+2018-12-11T09:31:12.7722276+05:30 0HLIV3KBIK324:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login/GetLoginDtails   (ca22a1cb)
+2018-12-11T09:31:12.7729356+05:30 0HLIV3KBIK324:00000005 [INF] Request finished in 0.7687ms 200 text/html (791a596a)
+2018-12-11T09:33:06.2370556+05:30 0HLIV3KBIK324:00000006 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login/GetLoginDtails application/json 47 (ca22a1cb)
+2018-12-11T09:33:06.2380272+05:30 0HLIV3KBIK324:00000006 [INF] Request finished in 1.0496ms 200 text/html (791a596a)
+2018-12-11T09:33:14.5571654+05:30 0HLIV3KBIK324:00000007 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login/GetLoginDtails application/json 47 (ca22a1cb)
+2018-12-11T09:33:14.5576075+05:30 0HLIV3KBIK324:00000007 [INF] Request finished in 0.4677ms 200 text/html (791a596a)
+2018-12-11T09:33:42.6002801+05:30 0HLIV3KBIK324:00000008 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login/GetLoginDtails application/json  (ca22a1cb)
+2018-12-11T09:33:42.6007878+05:30 0HLIV3KBIK324:00000008 [INF] Request finished in 0.5317ms 200 text/html (791a596a)
+2018-12-11T09:34:30.2459012+05:30 0HLIV3KBIK324:00000009 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login/GetLoginDtails application/json 47 (ca22a1cb)
+2018-12-11T09:34:30.2466281+05:30 0HLIV3KBIK324:00000009 [INF] Request finished in 0.7419ms 200 text/html (791a596a)
+2018-12-11T09:34:38.2849660+05:30 0HLIV3KBIK324:0000000A [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login/GetLoginDtails application/json 47 (ca22a1cb)
+2018-12-11T09:34:38.2854753+05:30 0HLIV3KBIK324:0000000A [INF] Request finished in 0.5566ms 200 text/html (791a596a)
+2018-12-11T09:34:43.1554177+05:30 0HLIV3KBIK324:0000000B [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login/GetLoginDtails application/json 47 (ca22a1cb)
+2018-12-11T09:34:43.1558882+05:30 0HLIV3KBIK324:0000000B [INF] Request finished in 0.4894ms 200 text/html (791a596a)
+2018-12-11T09:34:43.3707992+05:30 0HLIV3KBIK324:0000000C [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login/GetLoginDtails application/json 47 (ca22a1cb)
+2018-12-11T09:34:43.3711536+05:30 0HLIV3KBIK324:0000000C [INF] Request finished in 0.3938ms 200 text/html (791a596a)
+2018-12-11T09:35:09.1788761+05:30 0HLIV3KBIK324:0000000D [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login/GetLoginDtails application/json  (ca22a1cb)
+2018-12-11T09:35:09.1793841+05:30 0HLIV3KBIK324:0000000D [INF] Request finished in 0.536ms 200 text/html (791a596a)
+2018-12-11T09:35:22.1556390+05:30 0HLIV3KBIK324:0000000E [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login/GetLoginDtails application/json 47 (ca22a1cb)
+2018-12-11T09:35:22.1561592+05:30 0HLIV3KBIK324:0000000E [INF] Request finished in 0.523ms 200 text/html (791a596a)
+2018-12-11T09:35:29.8498787+05:30 0HLIV3KBIK324:0000000F [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login/GetLoginDtails multipart/form-data; boundary=--------------------------026830791527589127705114 283 (ca22a1cb)
+2018-12-11T09:35:29.8504389+05:30 0HLIV3KBIK324:0000000F [INF] Request finished in 0.608ms 200 text/html (791a596a)
+2018-12-11T09:35:44.0555377+05:30 0HLIV3KBIK324:00000010 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login/GetLoginDtails application/json 47 (ca22a1cb)
+2018-12-11T09:35:44.0561998+05:30 0HLIV3KBIK324:00000010 [INF] Request finished in 0.6518ms 200 text/html (791a596a)
+2018-12-11T09:35:44.4042270+05:30 0HLIV3KBIK324:00000011 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login/GetLoginDtails application/json 47 (ca22a1cb)
+2018-12-11T09:35:44.4046766+05:30 0HLIV3KBIK324:00000011 [INF] Request finished in 0.4744ms 200 text/html (791a596a)
+2018-12-11T09:36:31.6695052+05:30 0HLIV3KBIK324:00000012 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login application/json  (ca22a1cb)
+2018-12-11T09:36:31.6728064+05:30 0HLIV3KBIK324:00000012 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-12-11T09:36:31.6834347+05:30 0HLIV3KBIK324:00000012 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE [x].[UserName] IS NULL AND [x].[Password] IS NULL" (0723d8ff)
+2018-12-11T09:36:31.6838404+05:30 0HLIV3KBIK324:00000012 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T09:36:31.6840478+05:30 0HLIV3KBIK324:00000012 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 12.1074ms (afa2e885)
+2018-12-11T09:36:31.6841750+05:30 0HLIV3KBIK324:00000012 [INF] Request finished in 14.7156ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T09:36:41.4153693+05:30 0HLIV3KBIK324:00000013 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login/GetLoginDetails application/json  (ca22a1cb)
+2018-12-11T09:36:41.4160093+05:30 0HLIV3KBIK324:00000013 [INF] Request finished in 0.687ms 200 text/html (791a596a)
+2018-12-11T09:37:00.5602765+05:30 0HLIV3KBIK324:00000014 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login/GetLoginDetails application/json  (ca22a1cb)
+2018-12-11T09:37:00.5610619+05:30 0HLIV3KBIK324:00000014 [INF] Request finished in 0.7988ms 200 text/html (791a596a)
+2018-12-11T09:37:01.7422413+05:30 0HLIV3KBIK324:00000015 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login/GetLoginDetails application/json  (ca22a1cb)
+2018-12-11T09:37:01.7427008+05:30 0HLIV3KBIK324:00000015 [INF] Request finished in 0.5092ms 200 text/html (791a596a)
+2018-12-11T09:37:04.5680644+05:30 0HLIV3KBIK324:00000016 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login/GetLoginDetails application/json 47 (ca22a1cb)
+2018-12-11T09:37:04.5688857+05:30 0HLIV3KBIK324:00000016 [INF] Request finished in 0.8545ms 200 text/html (791a596a)
+2018-12-11T09:37:07.7434936+05:30 0HLIV3KBIK324:00000017 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login/GetLoginDetails application/json 47 (ca22a1cb)
+2018-12-11T09:37:07.7440586+05:30 0HLIV3KBIK324:00000017 [INF] Request finished in 0.608ms 200 text/html (791a596a)
+2018-12-11T09:37:08.4062126+05:30 0HLIV3KBIK324:00000018 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login/GetLoginDetails application/json 47 (ca22a1cb)
+2018-12-11T09:37:08.4066467+05:30 0HLIV3KBIK324:00000018 [INF] Request finished in 0.4871ms 200 text/html (791a596a)
+2018-12-11T09:37:08.5759818+05:30 0HLIV3KBIK324:00000019 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login/GetLoginDetails application/json 47 (ca22a1cb)
+2018-12-11T09:37:08.5765136+05:30 0HLIV3KBIK324:00000019 [INF] Request finished in 0.5542ms 200 text/html (791a596a)
+2018-12-11T09:37:16.3957616+05:30 0HLIV3KBIK324:0000001A [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login application/json  (ca22a1cb)
+2018-12-11T09:37:16.3960105+05:30 0HLIV3KBIK324:0000001A [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-12-11T09:37:16.4015256+05:30 0HLIV3KBIK324:0000001A [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE [x].[UserName] IS NULL AND [x].[Password] IS NULL" (0723d8ff)
+2018-12-11T09:37:16.4016757+05:30 0HLIV3KBIK324:0000001A [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T09:37:16.4018953+05:30 0HLIV3KBIK324:0000001A [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 5.9136ms (afa2e885)
+2018-12-11T09:37:16.4020134+05:30 0HLIV3KBIK324:0000001A [INF] Request finished in 6.2897ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T09:37:46.8665132+05:30 0HLIV3OOVS0AS:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login application/json  (ca22a1cb)
+2018-12-11T09:38:16.8981466+05:30 0HLIV3OOVS0AS:00000001 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-12-11T09:39:41.2838168+05:30 0HLIV3OOVS0AS:00000001 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MaxPoolSize=128 " (9958f5bb)
+2018-12-11T09:39:41.8471757+05:30 0HLIV3OOVS0AS:00000001 [INF] Executed DbCommand ("40"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE [x].[UserName] IS NULL AND [x].[Password] IS NULL" (0723d8ff)
+2018-12-11T09:39:41.8999069+05:30 0HLIV3OOVS0AS:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T09:39:42.0303086+05:30 0HLIV3OOVS0AS:00000001 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 114859.1034ms (afa2e885)
+2018-12-11T09:39:42.0419054+05:30 0HLIV3OOVS0AS:00000001 [INF] Request finished in 115186.905ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T09:39:49.5891322+05:30 0HLIV3OOVS0AS:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login application/json 47 (ca22a1cb)
+2018-12-11T09:39:49.8764893+05:30 0HLIV3OOVS0AS:00000002 [INF] Executing action method "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" with arguments (["Dodos.UI.Models.LoginModel"]) - ModelState is Valid (ba7f4ac2)
+2018-12-11T09:39:49.8953417+05:30 0HLIV3OOVS0AS:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE [x].[UserName] IS NULL AND [x].[Password] IS NULL" (0723d8ff)
+2018-12-11T09:39:49.9802682+05:30 0HLIV3OOVS0AS:00000002 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T09:39:49.9806976+05:30 0HLIV3OOVS0AS:00000002 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 359.6581ms (afa2e885)
+2018-12-11T09:39:49.9852949+05:30 0HLIV3OOVS0AS:00000002 [INF] Request finished in 396.15ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T09:40:13.1996239+05:30 0HLIV3OOVS0AS:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login application/json 44 (ca22a1cb)
+2018-12-11T09:40:13.2024534+05:30 0HLIV3OOVS0AS:00000003 [INF] Executing action method "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" with arguments (["Dodos.UI.Models.LoginModel"]) - ModelState is Valid (ba7f4ac2)
+2018-12-11T09:40:13.2037188+05:30 0HLIV3OOVS0AS:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE [x].[UserName] IS NULL AND [x].[Password] IS NULL" (0723d8ff)
+2018-12-11T09:40:13.2040727+05:30 0HLIV3OOVS0AS:00000003 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T09:40:13.2042529+05:30 0HLIV3OOVS0AS:00000003 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 3.531ms (afa2e885)
+2018-12-11T09:40:13.2043173+05:30 0HLIV3OOVS0AS:00000003 [INF] Request finished in 4.7514ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T09:40:51.3037793+05:30 0HLIV3OOVS0AS:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login   (ca22a1cb)
+2018-12-11T09:40:51.3041716+05:30 0HLIV3OOVS0AS:00000004 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-12-11T09:40:51.3047646+05:30 0HLIV3OOVS0AS:00000004 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE [x].[UserName] IS NULL AND [x].[Password] IS NULL" (0723d8ff)
+2018-12-11T09:40:51.3048633+05:30 0HLIV3OOVS0AS:00000004 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T09:40:51.3049423+05:30 0HLIV3OOVS0AS:00000004 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 0.8205ms (afa2e885)
+2018-12-11T09:40:51.3049913+05:30 0HLIV3OOVS0AS:00000004 [INF] Request finished in 1.3353ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T09:40:54.8790655+05:30 0HLIV3OOVS0AS:00000005 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login  0 (ca22a1cb)
+2018-12-11T09:40:54.9098685+05:30 0HLIV3OOVS0AS:00000005 [INF] Executing HttpStatusCodeResult, setting HTTP status code 415 (e28ccfae)
+2018-12-11T09:40:54.9100336+05:30 0HLIV3OOVS0AS:00000005 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 30.8199ms (afa2e885)
+2018-12-11T09:40:54.9118612+05:30 0HLIV3OOVS0AS:00000005 [INF] Request finished in 32.8612ms 415  (791a596a)
+2018-12-11T09:41:40.9841041+05:30 0HLIV3OOVS0AS:00000006 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login multipart/form-data; boundary=--------------------------435806585469240219590503 281 (ca22a1cb)
+2018-12-11T09:41:41.0727518+05:30 0HLIV3OOVS0AS:00000006 [INF] Executing HttpStatusCodeResult, setting HTTP status code 415 (e28ccfae)
+2018-12-11T09:41:41.0728130+05:30 0HLIV3OOVS0AS:00000006 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 88.5618ms (afa2e885)
+2018-12-11T09:41:41.0729229+05:30 0HLIV3OOVS0AS:00000006 [INF] Request finished in 88.8593ms 415  (791a596a)
+2018-12-11T09:41:57.8996584+05:30 0HLIV3OOVS0AS:00000007 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login multipart/form-data; boundary=--------------------------168121507754241769322070 283 (ca22a1cb)
+2018-12-11T09:41:57.9002977+05:30 0HLIV3OOVS0AS:00000007 [INF] Executing HttpStatusCodeResult, setting HTTP status code 415 (e28ccfae)
+2018-12-11T09:41:57.9003719+05:30 0HLIV3OOVS0AS:00000007 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 0.5171ms (afa2e885)
+2018-12-11T09:41:57.9004656+05:30 0HLIV3OOVS0AS:00000007 [INF] Request finished in 0.8205ms 415  (791a596a)
+2018-12-11T09:42:25.6634157+05:30 0HLIV3OOVS0AS:00000008 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login multipart/form-data; boundary=--------------------------506224861611859848643509 283 (ca22a1cb)
+2018-12-11T09:42:25.6639673+05:30 0HLIV3OOVS0AS:00000008 [INF] Executing HttpStatusCodeResult, setting HTTP status code 415 (e28ccfae)
+2018-12-11T09:42:25.6640210+05:30 0HLIV3OOVS0AS:00000008 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 0.4863ms (afa2e885)
+2018-12-11T09:42:25.6640996+05:30 0HLIV3OOVS0AS:00000008 [INF] Request finished in 0.7194ms 415  (791a596a)
+2018-12-11T09:43:33.3851716+05:30 0HLIV3S0B2RSJ:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login   (ca22a1cb)
+2018-12-11T09:43:40.6555362+05:30 0HLIV3S0B2RSJ:00000001 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-12-11T09:44:04.4837396+05:30 0HLIV3S0B2RSJ:00000001 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MaxPoolSize=128 " (9958f5bb)
+2018-12-11T09:44:05.0217662+05:30 0HLIV3S0B2RSJ:00000001 [INF] Executed DbCommand ("39"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE [x].[UserName] IS NULL AND [x].[Password] IS NULL" (0723d8ff)
+2018-12-11T09:44:21.7141046+05:30 0HLIV3S0B2RSJ:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T09:44:21.8516052+05:30 0HLIV3S0B2RSJ:00000001 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 48149.559ms (afa2e885)
+2018-12-11T09:44:25.3696729+05:30 0HLIV3S0B2RSJ:00000001 [INF] Request finished in 51995.8945ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T09:45:03.3483060+05:30 0HLIV3S0B2RSM:00000001 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login multipart/form-data; boundary=--------------------------588444382690545461075579 283 (ca22a1cb)
+2018-12-11T09:45:03.3593641+05:30 0HLIV3S0B2RSM:00000001 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)
+Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" (ab9a4111)
+2018-12-11T09:45:03.4756317+05:30 0HLIV3S0B2RSM:00000001 [INF] Request finished in 127.2818ms 500 application/json (791a596a)
+2018-12-11T09:46:54.3952560+05:30 0HLIV3S0B2RSM:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login multipart/form-data; boundary=--------------------------825743752561677051290610 283 (ca22a1cb)
+2018-12-11T09:46:54.3984370+05:30 0HLIV3S0B2RSM:00000002 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)
+Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" (ab9a4111)
+2018-12-11T09:46:54.4163554+05:30 0HLIV3S0B2RSM:00000002 [INF] Request finished in 21.1377ms 500 application/json (791a596a)
+2018-12-11T09:47:05.6315828+05:30 0HLIV3S0B2RSM:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login   (ca22a1cb)
+2018-12-11T09:47:20.4944734+05:30 0HLIV3S0B2RSM:00000003 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-12-11T09:47:41.2564113+05:30 0HLIV3S0B2RSM:00000003 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE [x].[UserName] IS NULL AND [x].[Password] IS NULL" (0723d8ff)
+2018-12-11T09:47:41.6717022+05:30 0HLIV3S0B2RSM:00000003 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T09:47:41.6719661+05:30 0HLIV3S0B2RSM:00000003 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 36038.5679ms (afa2e885)
+2018-12-11T09:47:46.3963581+05:30 0HLIV3S0B2RSM:00000003 [INF] Request finished in 40764.9139ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T09:47:52.6275896+05:30 0HLIV3S0B2RSM:00000004 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login  0 (ca22a1cb)
+2018-12-11T09:47:52.6302076+05:30 0HLIV3S0B2RSM:00000004 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)
+Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" (ab9a4111)
+2018-12-11T09:47:52.6501041+05:30 0HLIV3S0B2RSM:00000004 [INF] Request finished in 22.5268ms 500 application/json (791a596a)
+2018-12-11T09:48:03.6906679+05:30 0HLIV3S0B2RSM:00000005 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login/GetLoginDetails  0 (ca22a1cb)
+2018-12-11T09:48:03.7002572+05:30 0HLIV3S0B2RSM:00000005 [INF] Request finished in 9.6015ms 200 text/html (791a596a)
+2018-12-11T09:50:21.5104615+05:30 0HLIV3S0B2RSM:00000006 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login/GetLoginDetails application/json 63 (ca22a1cb)
+2018-12-11T09:50:21.5122741+05:30 0HLIV3S0B2RSM:00000006 [INF] Request finished in 1.9014ms 200 text/html (791a596a)
+2018-12-11T09:50:31.2685643+05:30 0HLIV3S0B2RSM:00000007 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login/GetLoginDetails application/json  (ca22a1cb)
+2018-12-11T09:50:31.2693251+05:30 0HLIV3S0B2RSM:00000007 [INF] Request finished in 0.7628ms 200 text/html (791a596a)
+2018-12-11T09:50:34.0407446+05:30 0HLIV3S0B2RSM:00000008 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login/GetLoginDetails application/json 63 (ca22a1cb)
+2018-12-11T09:50:34.0414814+05:30 0HLIV3S0B2RSM:00000008 [INF] Request finished in 0.8031ms 200 text/html (791a596a)
+2018-12-11T09:50:42.0500654+05:30 0HLIV3S0B2RSM:00000009 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login application/json 63 (ca22a1cb)
+2018-12-11T09:50:42.0528185+05:30 0HLIV3S0B2RSM:00000009 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)
+Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" (ab9a4111)
+2018-12-11T09:50:42.0728201+05:30 0HLIV3S0B2RSM:00000009 [INF] Request finished in 22.8152ms 500 application/json (791a596a)
+2018-12-11T09:51:25.9958443+05:30 0HLIV40EOOJ2T:00000001 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login application/json 63 (ca22a1cb)
+2018-12-11T09:51:26.1976549+05:30 0HLIV40EOOJ2T:00000001 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: "Dodos.UI.Controllers.LoginController.GetLogins (Dodos.UI)
+Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" (ab9a4111)
+2018-12-11T09:51:26.3622398+05:30 0HLIV40EOOJ2T:00000001 [INF] Request finished in 376.9417ms 500 application/json (791a596a)
+2018-12-11T09:51:40.4789720+05:30 0HLIV40EOOJ2T:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login/GetLogins application/json 63 (ca22a1cb)
+2018-12-11T09:51:40.4878885+05:30 0HLIV40EOOJ2T:00000002 [INF] Request finished in 8.9264ms 200 text/html (791a596a)
+2018-12-11T09:52:23.6799534+05:30 0HLIV40TLJLF7:00000001 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login application/json 63 (ca22a1cb)
+2018-12-11T09:52:23.9640330+05:30 0HLIV40TLJLF7:00000001 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: "Dodos.UI.Controllers.LoginController.GetLogins (Dodos.UI)
+Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" (ab9a4111)
+2018-12-11T09:52:24.1844678+05:30 0HLIV40TLJLF7:00000001 [INF] Request finished in 514.8322ms 500 application/json (791a596a)
+2018-12-11T09:52:34.7694243+05:30 0HLIV40TLJLF7:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login application/json  (ca22a1cb)
+2018-12-11T09:52:38.9510984+05:30 0HLIV40TLJLF7:00000002 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-12-11T09:52:42.3811845+05:30 0HLIV40TLJLF7:00000002 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MaxPoolSize=128 " (9958f5bb)
+2018-12-11T09:52:42.9525624+05:30 0HLIV40TLJLF7:00000002 [INF] Executed DbCommand ("42"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE [x].[UserName] IS NULL AND [x].[Password] IS NULL" (0723d8ff)
+2018-12-11T09:52:43.0069597+05:30 0HLIV40TLJLF7:00000002 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T09:52:43.0311186+05:30 0HLIV40TLJLF7:00000002 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 8215.3317ms (afa2e885)
+2018-12-11T09:52:43.0344892+05:30 0HLIV40TLJLF7:00000002 [INF] Request finished in 8265.0649ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T09:52:52.6696771+05:30 0HLIV40TLJLF7:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login/GetLogins application/json 63 (ca22a1cb)
+2018-12-11T09:52:52.6777312+05:30 0HLIV40TLJLF7:00000003 [INF] Request finished in 8.2643ms 200 text/html (791a596a)
+2018-12-11T09:53:07.3183053+05:30 0HLIV40TLJLF7:00000004 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login application/json 63 (ca22a1cb)
+2018-12-11T09:53:07.3209581+05:30 0HLIV40TLJLF7:00000004 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: "Dodos.UI.Controllers.LoginController.GetLogins (Dodos.UI)
+Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" (ab9a4111)
+2018-12-11T09:53:07.3409601+05:30 0HLIV40TLJLF7:00000004 [INF] Request finished in 22.65ms 500 application/json (791a596a)
+2018-12-11T09:54:21.6283800+05:30 0HLIV40TLJLF7:00000005 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login multipart/form-data; boundary=--------------------------154942907086282406434844 283 (ca22a1cb)
+2018-12-11T09:54:21.6310629+05:30 0HLIV40TLJLF7:00000005 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: "Dodos.UI.Controllers.LoginController.GetLogins (Dodos.UI)
+Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" (ab9a4111)
+2018-12-11T09:54:21.6498695+05:30 0HLIV40TLJLF7:00000005 [INF] Request finished in 21.4893ms 500 application/json (791a596a)
+2018-12-11T09:54:27.4679351+05:30 0HLIV40TLJLF7:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login application/json  (ca22a1cb)
+2018-12-11T09:54:27.4698607+05:30 0HLIV40TLJLF7:00000006 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-12-11T09:54:27.4809725+05:30 0HLIV40TLJLF7:00000006 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE [x].[UserName] IS NULL AND [x].[Password] IS NULL" (0723d8ff)
+2018-12-11T09:54:27.4813545+05:30 0HLIV40TLJLF7:00000006 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T09:54:27.4815742+05:30 0HLIV40TLJLF7:00000006 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 12.5179ms (afa2e885)
+2018-12-11T09:54:27.4816986+05:30 0HLIV40TLJLF7:00000006 [INF] Request finished in 13.7967ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T09:54:35.0151872+05:30 0HLIV40TLJLF7:00000007 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login multipart/form-data; boundary=--------------------------254063779566180861050939 283 (ca22a1cb)
+2018-12-11T09:54:35.0177622+05:30 0HLIV40TLJLF7:00000007 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: "Dodos.UI.Controllers.LoginController.GetLogins (Dodos.UI)
+Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" (ab9a4111)
+2018-12-11T09:54:35.0363878+05:30 0HLIV40TLJLF7:00000007 [INF] Request finished in 21.2345ms 500 application/json (791a596a)
+2018-12-11T09:54:44.1576565+05:30 0HLIV40TLJLF7:00000008 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login multipart/form-data; boundary=--------------------------601907526774131768899118 283 (ca22a1cb)
+2018-12-11T09:54:44.1604591+05:30 0HLIV40TLJLF7:00000008 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: "Dodos.UI.Controllers.LoginController.GetLogins (Dodos.UI)
+Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" (ab9a4111)
+2018-12-11T09:54:44.1827651+05:30 0HLIV40TLJLF7:00000008 [INF] Request finished in 25.0955ms 500 application/json (791a596a)
+2018-12-11T09:55:08.2654757+05:30 0HLIV40TLJLF7:00000009 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login application/json 63 (ca22a1cb)
+2018-12-11T09:55:08.2698273+05:30 0HLIV40TLJLF7:00000009 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: "Dodos.UI.Controllers.LoginController.GetLogins (Dodos.UI)
+Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" (ab9a4111)
+2018-12-11T09:55:08.2879989+05:30 0HLIV40TLJLF7:00000009 [INF] Request finished in 22.5276ms 500 application/json (791a596a)
+2018-12-11T09:59:53.8774181+05:30 0HLIV45645OP5:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login application/json  (ca22a1cb)
+2018-12-11T09:59:54.2241241+05:30 0HLIV45645OP5:00000001 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-12-11T09:59:54.6214918+05:30 0HLIV45645OP5:00000001 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MaxPoolSize=128 " (9958f5bb)
+2018-12-11T09:59:55.1052610+05:30 0HLIV45645OP5:00000001 [INF] Executed DbCommand ("65"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T09:59:55.1978845+05:30 0HLIV45645OP5:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T09:59:55.2995103+05:30 0HLIV45645OP5:00000001 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 1193.3346ms (afa2e885)
+2018-12-11T09:59:55.3113171+05:30 0HLIV45645OP5:00000001 [INF] Request finished in 1445.3451ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T10:00:00.8215563+05:30 0HLIV45645OP5:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login application/json 63 (ca22a1cb)
+2018-12-11T10:00:01.0263462+05:30 0HLIV45645OP5:00000002 [INF] Executing action method "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" with arguments (["Dodos.UI.Models.LoginModel"]) - ModelState is Invalid (ba7f4ac2)
+2018-12-11T10:00:01.0361027+05:30 0HLIV45645OP5:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T10:00:01.0528987+05:30 0HLIV45645OP5:00000002 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 205.4476ms (afa2e885)
+2018-12-11T10:00:01.0814905+05:30 0HLIV45645OP5:00000002 [INF] Request finished in 259.8781ms 500 application/json (791a596a)
+2018-12-11T10:00:20.5746232+05:30 0HLIV45645OP5:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login application/json 0 (ca22a1cb)
+2018-12-11T10:00:20.5770626+05:30 0HLIV45645OP5:00000003 [INF] Executing action method "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" with arguments ([""]) - ModelState is Invalid (ba7f4ac2)
+2018-12-11T10:00:20.5789945+05:30 0HLIV45645OP5:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T10:00:20.5795950+05:30 0HLIV45645OP5:00000003 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 3.9893ms (afa2e885)
+2018-12-11T10:00:20.5799110+05:30 0HLIV45645OP5:00000003 [INF] Request finished in 5.3203ms 500 application/json (791a596a)
+2018-12-11T10:00:41.7341026+05:30 0HLIV45645OP5:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login application/json  (ca22a1cb)
+2018-12-11T10:00:41.7344526+05:30 0HLIV45645OP5:00000004 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-12-11T10:00:41.7350191+05:30 0HLIV45645OP5:00000004 [INF] Executed DbCommand ("0"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T10:00:41.7352593+05:30 0HLIV45645OP5:00000004 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T10:00:41.7354809+05:30 0HLIV45645OP5:00000004 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 1.0702ms (afa2e885)
+2018-12-11T10:00:41.7355477+05:30 0HLIV45645OP5:00000004 [INF] Request finished in 1.4862ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T10:00:45.8383523+05:30 0HLIV45645OP5:00000005 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login application/json 0 (ca22a1cb)
+2018-12-11T10:00:45.8386218+05:30 0HLIV45645OP5:00000005 [INF] Executing action method "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" with arguments ([""]) - ModelState is Invalid (ba7f4ac2)
+2018-12-11T10:00:45.8392503+05:30 0HLIV45645OP5:00000005 [INF] Executed DbCommand ("0"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T10:00:45.8397513+05:30 0HLIV45645OP5:00000005 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 1.2294ms (afa2e885)
+2018-12-11T10:00:45.8400255+05:30 0HLIV45645OP5:00000005 [INF] Request finished in 1.7161ms 500 application/json (791a596a)
+2018-12-11T10:01:57.4461972+05:30 0HLIV45645OP5:00000006 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login application/json 0 (ca22a1cb)
+2018-12-11T10:01:57.4464856+05:30 0HLIV45645OP5:00000006 [INF] Executing action method "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" with arguments ([""]) - ModelState is Invalid (ba7f4ac2)
+2018-12-11T10:01:57.4490515+05:30 0HLIV45645OP5:00000006 [INF] Executed DbCommand ("1"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T10:01:57.4496619+05:30 0HLIV45645OP5:00000006 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 3.2991ms (afa2e885)
+2018-12-11T10:01:57.4499143+05:30 0HLIV45645OP5:00000006 [INF] Request finished in 3.808ms 500 application/json (791a596a)
+2018-12-11T10:01:58.4652645+05:30 0HLIV45645OP5:00000007 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login application/json 0 (ca22a1cb)
+2018-12-11T10:01:58.4654774+05:30 0HLIV45645OP5:00000007 [INF] Executing action method "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" with arguments ([""]) - ModelState is Invalid (ba7f4ac2)
+2018-12-11T10:01:58.4659930+05:30 0HLIV45645OP5:00000007 [INF] Executed DbCommand ("0"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T10:01:58.4664047+05:30 0HLIV45645OP5:00000007 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 0.9821ms (afa2e885)
+2018-12-11T10:01:58.4666883+05:30 0HLIV45645OP5:00000007 [INF] Request finished in 1.451ms 500 application/json (791a596a)
+2018-12-11T10:01:58.6966740+05:30 0HLIV45645OP5:00000008 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login application/json 0 (ca22a1cb)
+2018-12-11T10:01:58.6968435+05:30 0HLIV45645OP5:00000008 [INF] Executing action method "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" with arguments ([""]) - ModelState is Invalid (ba7f4ac2)
+2018-12-11T10:01:58.6973370+05:30 0HLIV45645OP5:00000008 [INF] Executed DbCommand ("0"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T10:01:58.6977273+05:30 0HLIV45645OP5:00000008 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 0.9513ms (afa2e885)
+2018-12-11T10:01:58.6979497+05:30 0HLIV45645OP5:00000008 [INF] Request finished in 1.278ms 500 application/json (791a596a)
+2018-12-11T10:01:59.5723693+05:30 0HLIV45645OP5:00000009 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login application/json 0 (ca22a1cb)
+2018-12-11T10:01:59.5725578+05:30 0HLIV45645OP5:00000009 [INF] Executing action method "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" with arguments ([""]) - ModelState is Invalid (ba7f4ac2)
+2018-12-11T10:01:59.5731306+05:30 0HLIV45645OP5:00000009 [INF] Executed DbCommand ("0"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T10:01:59.5735774+05:30 0HLIV45645OP5:00000009 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 1.0907ms (afa2e885)
+2018-12-11T10:01:59.5738058+05:30 0HLIV45645OP5:00000009 [INF] Request finished in 1.4668ms 500 application/json (791a596a)
+2018-12-11T10:02:44.6581752+05:30 0HLIV45645OP5:0000000A [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login application/json 47 (ca22a1cb)
+2018-12-11T10:02:44.6686937+05:30 0HLIV45645OP5:0000000A [INF] Executing action method "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" with arguments (["Dodos.UI.Models.LoginModel"]) - ModelState is Valid (ba7f4ac2)
+2018-12-11T10:02:44.6709116+05:30 0HLIV45645OP5:0000000A [INF] Executed DbCommand ("1"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T10:02:44.7065794+05:30 0HLIV45645OP5:0000000A [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T10:02:44.7070638+05:30 0HLIV45645OP5:0000000A [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 48.6874ms (afa2e885)
+2018-12-11T10:02:44.7071748+05:30 0HLIV45645OP5:0000000A [INF] Request finished in 49.0509ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T10:03:56.5386990+05:30 0HLIV45645OP5:0000000B [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login   (ca22a1cb)
+2018-12-11T10:03:56.5389914+05:30 0HLIV45645OP5:0000000B [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-12-11T10:03:56.5413166+05:30 0HLIV45645OP5:0000000B [INF] Executed DbCommand ("1"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T10:03:56.5415485+05:30 0HLIV45645OP5:0000000B [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T10:03:56.5416873+05:30 0HLIV45645OP5:0000000B [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 2.7279ms (afa2e885)
+2018-12-11T10:03:56.5417742+05:30 0HLIV45645OP5:0000000B [INF] Request finished in 3.149ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T10:05:41.7279104+05:30 0HLIV485G1F6A:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login   (ca22a1cb)
+2018-12-11T10:05:45.7470199+05:30 0HLIV485G1F6A:00000001 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-12-11T10:05:48.7901812+05:30 0HLIV485G1F6A:00000001 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MaxPoolSize=128 " (9958f5bb)
+2018-12-11T10:05:49.3797165+05:30 0HLIV485G1F6A:00000001 [INF] Executed DbCommand ("74"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T10:05:49.4870402+05:30 0HLIV485G1F6A:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T10:05:49.6245535+05:30 0HLIV485G1F6A:00000001 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 7572.2224ms (afa2e885)
+2018-12-11T10:05:49.6410856+05:30 0HLIV485G1F6A:00000001 [INF] Request finished in 7927.1043ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T10:07:04.3229671+05:30 0HLIV485G1F6D:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login application/json  (ca22a1cb)
+2018-12-11T10:07:14.1120893+05:30 0HLIV485G1F6D:00000001 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-12-11T10:07:15.3128479+05:30 0HLIV485G1F6D:00000001 [INF] Executed DbCommand ("5"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T10:07:16.2958113+05:30 0HLIV485G1F6D:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T10:07:16.2962454+05:30 0HLIV485G1F6D:00000001 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 11970.6844ms (afa2e885)
+2018-12-11T10:07:16.5795614+05:30 0HLIV485G1F6D:00000001 [INF] Request finished in 12256.6058ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T10:07:30.2035442+05:30 0HLIV485G1F6D:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login application/json 47 (ca22a1cb)
+2018-12-11T10:07:36.7495851+05:30 0HLIV485G1F6D:00000002 [INF] Executing action method "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" with arguments (["Dodos.UI.Models.LoginModel"]) - ModelState is Valid (ba7f4ac2)
+2018-12-11T10:07:43.2270187+05:30 0HLIV485G1F6D:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T10:08:24.1663392+05:30 0HLIV485G1F6D:00000002 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T10:08:24.1667820+05:30 0HLIV485G1F6D:00000002 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 53934.0499ms (afa2e885)
+2018-12-11T10:08:24.1711167+05:30 0HLIV485G1F6D:00000002 [INF] Request finished in 53967.6298ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T10:19:47.0120098+05:30 0HLIV4G3SMKRG:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login   (ca22a1cb)
+2018-12-11T10:19:51.0027954+05:30 0HLIV4G3SMKRG:00000001 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-12-11T10:19:55.9293087+05:30 0HLIV4G3SMKRG:00000001 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MaxPoolSize=128 " (9958f5bb)
+2018-12-11T10:19:56.5466642+05:30 0HLIV4G3SMKRG:00000001 [INF] Executed DbCommand ("86"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T10:19:56.6638661+05:30 0HLIV4G3SMKRG:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T10:19:56.8078504+05:30 0HLIV4G3SMKRG:00000001 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 9474.7737ms (afa2e885)
+2018-12-11T10:19:56.8292774+05:30 0HLIV4G3SMKRG:00000001 [INF] Request finished in 9825.488ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T10:20:29.2809858+05:30 0HLIV4G3SMKRJ:00000001 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Login  0 (ca22a1cb)
+2018-12-11T10:20:29.2924718+05:30 0HLIV4G3SMKRJ:00000001 [INF] Request finished in 11.5492ms 200 text/html (791a596a)
+2018-12-11T10:20:45.7573532+05:30 0HLIV4G3SMKRJ:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5000/Login  0 (ca22a1cb)
+2018-12-11T10:20:45.7582880+05:30 0HLIV4G3SMKRJ:00000002 [INF] Request finished in 0.956ms 200 text/html (791a596a)
+2018-12-11T10:21:29.9823241+05:30 0HLIV4G3SMKRJ:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login  0 (ca22a1cb)
+2018-12-11T10:21:45.8645995+05:30 0HLIV4G3SMKRJ:00000003 [INF] Executing HttpStatusCodeResult, setting HTTP status code 415 (e28ccfae)
+2018-12-11T10:21:45.8648918+05:30 0HLIV4G3SMKRJ:00000003 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 15854.3271ms (afa2e885)
+2018-12-11T10:21:45.8670035+05:30 0HLIV4G3SMKRJ:00000003 [INF] Request finished in 15884.7655ms 415  (791a596a)
+2018-12-11T10:22:27.4600868+05:30 0HLIV4G3SMKRJ:00000004 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login  0 (ca22a1cb)
+2018-12-11T10:36:39.8832318+05:30 0HLIV4G3SMKRJ:00000004 [INF] Executing HttpStatusCodeResult, setting HTTP status code 415 (e28ccfae)
+2018-12-11T10:36:39.8833132+05:30 0HLIV4G3SMKRJ:00000004 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 852422.0534ms (afa2e885)
+2018-12-11T10:36:41.8944042+05:30 0HLIV4G3SMKRJ:00000004 [INF] Request finished in 854434.3395ms 415  (791a596a)
+2018-12-11T10:36:51.6894982+05:30 0HLIV4G3SMKRJ:00000005 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login  0 (ca22a1cb)
+2018-12-11T10:36:57.2987316+05:30 0HLIV4G3SMKRJ:00000005 [INF] Executing HttpStatusCodeResult, setting HTTP status code 415 (e28ccfae)
+2018-12-11T10:36:57.2987921+05:30 0HLIV4G3SMKRJ:00000005 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 5609.0876ms (afa2e885)
+2018-12-11T10:36:57.3004640+05:30 0HLIV4G3SMKRJ:00000005 [INF] Request finished in 5609.4025ms 415  (791a596a)
+2018-12-11T10:39:18.6521193+05:30 0HLIV4R1BHD2T:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login   (ca22a1cb)
+2018-12-11T10:39:21.9721669+05:30 0HLIV4R1BHD2T:00000001 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-12-11T10:39:22.4618993+05:30 0HLIV4R1BHD2T:00000001 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MaxPoolSize=128 " (9958f5bb)
+2018-12-11T10:39:23.0359829+05:30 0HLIV4R1BHD2T:00000001 [INF] Executed DbCommand ("71"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T10:39:23.1367226+05:30 0HLIV4R1BHD2T:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T10:39:23.2558729+05:30 0HLIV4R1BHD2T:00000001 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 4297.7665ms (afa2e885)
+2018-12-11T10:39:23.2682889+05:30 0HLIV4R1BHD2T:00000001 [INF] Request finished in 4628.5622ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T10:39:33.9310200+05:30 0HLIV4R1BHD2U:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login   (ca22a1cb)
+2018-12-11T10:39:37.1528700+05:30 0HLIV4R1BHD2U:00000001 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-12-11T10:39:37.1677393+05:30 0HLIV4R1BHD2U:00000001 [INF] Executed DbCommand ("4"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T10:39:37.1694400+05:30 0HLIV4R1BHD2U:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T10:39:37.1697525+05:30 0HLIV4R1BHD2U:00000001 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 3234.926ms (afa2e885)
+2018-12-11T10:39:37.1699607+05:30 0HLIV4R1BHD2U:00000001 [INF] Request finished in 3239.0548ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T10:40:22.4062647+05:30 0HLIV4R1BHD2T:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login multipart/form-data; boundary=--------------------------310987156072550761378258 283 (ca22a1cb)
+2018-12-11T10:40:27.4433982+05:30 0HLIV4R1BHD2T:00000002 [INF] Executing HttpStatusCodeResult, setting HTTP status code 415 (e28ccfae)
+2018-12-11T10:40:27.4435977+05:30 0HLIV4R1BHD2T:00000002 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 5010.5303ms (afa2e885)
+2018-12-11T10:40:29.1913225+05:30 0HLIV4R1BHD2T:00000002 [INF] Request finished in 6785.1652ms 415  (791a596a)
+2018-12-11T10:41:46.1917539+05:30 0HLIV4R1BHD2T:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login text/plain 45 (ca22a1cb)
+2018-12-11T10:41:49.6086550+05:30 0HLIV4R1BHD2T:00000003 [INF] Executing HttpStatusCodeResult, setting HTTP status code 415 (e28ccfae)
+2018-12-11T10:41:49.6087186+05:30 0HLIV4R1BHD2T:00000003 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 3416.7327ms (afa2e885)
+2018-12-11T10:41:49.6090208+05:30 0HLIV4R1BHD2T:00000003 [INF] Request finished in 3417.3139ms 415  (791a596a)
+2018-12-11T10:42:10.2521368+05:30 0HLIV4R1BHD2T:00000004 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login multipart/form-data; boundary=--------------------------805480774454755408629701 283 (ca22a1cb)
+2018-12-11T10:42:16.0578741+05:30 0HLIV4R1BHD2T:00000004 [INF] Executing HttpStatusCodeResult, setting HTTP status code 415 (e28ccfae)
+2018-12-11T10:42:16.0579132+05:30 0HLIV4R1BHD2T:00000004 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 5805.6026ms (afa2e885)
+2018-12-11T10:42:16.9804763+05:30 0HLIV4R1BHD2T:00000004 [INF] Request finished in 6728.3754ms 415  (791a596a)
+2018-12-11T10:43:53.2089514+05:30 0HLIV4TIV536U:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login   (ca22a1cb)
+2018-12-11T10:44:04.6880293+05:30 0HLIV4TIV536U:00000001 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-12-11T10:44:08.0113919+05:30 0HLIV4TIV536U:00000001 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MaxPoolSize=128 " (9958f5bb)
+2018-12-11T10:44:08.6389243+05:30 0HLIV4TIV536U:00000001 [INF] Executed DbCommand ("89"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T10:44:10.8372051+05:30 0HLIV4TIV536U:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T10:44:10.9943303+05:30 0HLIV4TIV536U:00000001 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 17464.0272ms (afa2e885)
+2018-12-11T10:44:11.1653879+05:30 0HLIV4TIV536U:00000001 [INF] Request finished in 17964.826ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T10:45:51.3105538+05:30 0HLIV4TIV536U:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login  0 (ca22a1cb)
+2018-12-11T10:45:55.0113567+05:30 0HLIV4TIV536U:00000002 [INF] Executing HttpStatusCodeResult, setting HTTP status code 415 (e28ccfae)
+2018-12-11T10:45:55.0115764+05:30 0HLIV4TIV536U:00000002 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 3676.6488ms (afa2e885)
+2018-12-11T10:45:55.0139267+05:30 0HLIV4TIV536U:00000002 [INF] Request finished in 3703.509ms 415  (791a596a)
+2018-12-11T10:46:25.0567557+05:30 0HLIV4TIV536U:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login/GetLoginDetails  0 (ca22a1cb)
+2018-12-11T10:46:29.3306775+05:30 0HLIV4TIV536U:00000003 [INF] Request finished in 4273.9419ms 200 text/html (791a596a)
+2018-12-11T10:47:59.4721998+05:30 0HLIV4TIV536U:00000004 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login multipart/form-data; boundary=--------------------------174265482005763620732251 283 (ca22a1cb)
+2018-12-11T10:48:04.5410374+05:30 0HLIV4TIV536U:00000004 [INF] Executing HttpStatusCodeResult, setting HTTP status code 415 (e28ccfae)
+2018-12-11T10:48:04.5411263+05:30 0HLIV4TIV536U:00000004 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 5067.9597ms (afa2e885)
+2018-12-11T10:48:05.9260036+05:30 0HLIV4TIV536U:00000004 [INF] Request finished in 6453.8816ms 415  (791a596a)
+2018-12-11T10:48:23.4631710+05:30 0HLIV4TIV536U:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login   (ca22a1cb)
+2018-12-11T10:50:51.9721283+05:30 0HLIV51JV9MGF:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login   (ca22a1cb)
+2018-12-11T10:50:52.6713098+05:30 0HLIV51JV9MGF:00000001 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-12-11T10:50:53.2597295+05:30 0HLIV51JV9MGF:00000001 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MaxPoolSize=128 " (9958f5bb)
+2018-12-11T10:50:53.9640284+05:30 0HLIV51JV9MGF:00000001 [INF] Executed DbCommand ("90"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T10:50:54.0783095+05:30 0HLIV51JV9MGF:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T10:50:54.2119037+05:30 0HLIV51JV9MGF:00000001 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 1910.8068ms (afa2e885)
+2018-12-11T10:50:54.2286748+05:30 0HLIV51JV9MGF:00000001 [INF] Request finished in 2268.1278ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T10:51:13.6573211+05:30 0HLIV51JV9MGI:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login   (ca22a1cb)
+2018-12-11T10:51:13.6886259+05:30 0HLIV51JV9MGI:00000001 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-12-11T10:51:13.7003884+05:30 0HLIV51JV9MGI:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T10:51:13.7007574+05:30 0HLIV51JV9MGI:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T10:51:13.7009008+05:30 0HLIV51JV9MGI:00000001 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 13.3357ms (afa2e885)
+2018-12-11T10:51:13.7010458+05:30 0HLIV51JV9MGI:00000001 [INF] Request finished in 43.7404ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T10:53:28.3981759+05:30 0HLIV51JV9MGI:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login text/plain 45 (ca22a1cb)
+2018-12-11T10:53:28.4677167+05:30 0HLIV51JV9MGI:00000002 [INF] Executing HttpStatusCodeResult, setting HTTP status code 415 (e28ccfae)
+2018-12-11T10:53:28.4678937+05:30 0HLIV51JV9MGI:00000002 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 39.7973ms (afa2e885)
+2018-12-11T10:53:28.4869597+05:30 0HLIV51JV9MGI:00000002 [INF] Request finished in 88.8707ms 415  (791a596a)
+2018-12-11T10:55:17.2407215+05:30 0HLIV51JV9MGI:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login text/plain 45 (ca22a1cb)
+2018-12-11T10:55:17.2412070+05:30 0HLIV51JV9MGI:00000003 [INF] Executing HttpStatusCodeResult, setting HTTP status code 415 (e28ccfae)
+2018-12-11T10:55:17.2412931+05:30 0HLIV51JV9MGI:00000003 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 0.3595ms (afa2e885)
+2018-12-11T10:55:17.2416981+05:30 0HLIV51JV9MGI:00000003 [INF] Request finished in 1.0358ms 415  (791a596a)
+2018-12-11T10:57:04.4156624+05:30 0HLIV51JV9MGI:00000004 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login application/json 0 (ca22a1cb)
+2018-12-11T10:57:04.4229399+05:30 0HLIV51JV9MGI:00000004 [INF] Executing action method "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" with arguments ([""]) - ModelState is Invalid (ba7f4ac2)
+2018-12-11T10:57:04.4365731+05:30 0HLIV51JV9MGI:00000004 [INF] Executed DbCommand ("3"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T10:57:04.5052080+05:30 0HLIV51JV9MGI:00000004 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 89.3922ms (afa2e885)
+2018-12-11T10:57:04.5854724+05:30 0HLIV51JV9MGI:00000004 [INF] Request finished in 169.847ms 500 application/json (791a596a)
+2018-12-11T10:57:10.9529780+05:30 0HLIV51JV9MGI:00000005 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login application/json 0 (ca22a1cb)
+2018-12-11T10:57:10.9536781+05:30 0HLIV51JV9MGI:00000005 [INF] Executing action method "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" with arguments ([""]) - ModelState is Invalid (ba7f4ac2)
+2018-12-11T10:57:10.9558474+05:30 0HLIV51JV9MGI:00000005 [INF] Executed DbCommand ("1"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T10:57:10.9900598+05:30 0HLIV51JV9MGI:00000005 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 36.7597ms (afa2e885)
+2018-12-11T10:57:11.0124582+05:30 0HLIV51JV9MGI:00000005 [INF] Request finished in 59.52ms 500 application/json (791a596a)
+2018-12-11T10:57:14.9002751+05:30 0HLIV51JV9MGI:00000006 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login application/x-www-form-urlencoded 0 (ca22a1cb)
+2018-12-11T10:57:14.9446806+05:30 0HLIV51JV9MGI:00000006 [INF] Executing HttpStatusCodeResult, setting HTTP status code 415 (e28ccfae)
+2018-12-11T10:57:14.9447632+05:30 0HLIV51JV9MGI:00000006 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 44.3247ms (afa2e885)
+2018-12-11T10:57:14.9448303+05:30 0HLIV51JV9MGI:00000006 [INF] Request finished in 44.7115ms 415  (791a596a)
+2018-12-11T10:57:18.9532333+05:30 0HLIV51JV9MGI:00000007 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login application/json  (ca22a1cb)
+2018-12-11T10:57:18.9535478+05:30 0HLIV51JV9MGI:00000007 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-12-11T10:57:18.9553745+05:30 0HLIV51JV9MGI:00000007 [INF] Executed DbCommand ("1"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T10:57:18.9556388+05:30 0HLIV51JV9MGI:00000007 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T10:57:18.9558367+05:30 0HLIV51JV9MGI:00000007 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 2.366ms (afa2e885)
+2018-12-11T10:57:18.9559418+05:30 0HLIV51JV9MGI:00000007 [INF] Request finished in 2.748ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T10:57:26.4489693+05:30 0HLIV51JV9MGI:00000008 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login text/plain 45 (ca22a1cb)
+2018-12-11T10:57:26.4492063+05:30 0HLIV51JV9MGI:00000008 [INF] Executing HttpStatusCodeResult, setting HTTP status code 415 (e28ccfae)
+2018-12-11T10:57:26.4492703+05:30 0HLIV51JV9MGI:00000008 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 0.1639ms (afa2e885)
+2018-12-11T10:57:26.4495524+05:30 0HLIV51JV9MGI:00000008 [INF] Request finished in 0.6447ms 415  (791a596a)
+2018-12-11T10:57:44.5259432+05:30 0HLIV51JV9MGI:00000009 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login application/json 0 (ca22a1cb)
+2018-12-11T10:57:44.5261684+05:30 0HLIV51JV9MGI:00000009 [INF] Executing action method "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" with arguments ([""]) - ModelState is Invalid (ba7f4ac2)
+2018-12-11T10:57:44.5281204+05:30 0HLIV51JV9MGI:00000009 [INF] Executed DbCommand ("1"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T10:57:44.5603457+05:30 0HLIV51JV9MGI:00000009 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 34.2261ms (afa2e885)
+2018-12-11T10:57:44.5815924+05:30 0HLIV51JV9MGI:00000009 [INF] Request finished in 55.6053ms 500 application/json (791a596a)
+2018-12-11T10:57:49.9461798+05:30 0HLIV51JV9MGI:0000000A [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login application/json 0 (ca22a1cb)
+2018-12-11T10:57:49.9464346+05:30 0HLIV51JV9MGI:0000000A [INF] Executing action method "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" with arguments ([""]) - ModelState is Invalid (ba7f4ac2)
+2018-12-11T10:57:49.9472291+05:30 0HLIV51JV9MGI:0000000A [INF] Executed DbCommand ("0"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T10:57:49.9794990+05:30 0HLIV51JV9MGI:0000000A [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 33.167ms (afa2e885)
+2018-12-11T10:57:50.0005771+05:30 0HLIV51JV9MGI:0000000A [INF] Request finished in 54.3874ms 500 application/json (791a596a)
+2018-12-11T10:57:54.2386731+05:30 0HLIV51JV9MGI:0000000B [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login application/json 0 (ca22a1cb)
+2018-12-11T10:57:54.2390678+05:30 0HLIV51JV9MGI:0000000B [INF] Executing action method "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" with arguments ([""]) - ModelState is Invalid (ba7f4ac2)
+2018-12-11T10:57:54.2404852+05:30 0HLIV51JV9MGI:0000000B [INF] Executed DbCommand ("0"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T10:57:54.2733615+05:30 0HLIV51JV9MGI:0000000B [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 34.475ms (afa2e885)
+2018-12-11T10:57:54.2919637+05:30 0HLIV51JV9MGI:0000000B [INF] Request finished in 53.3614ms 500 application/json (791a596a)
+2018-12-11T10:57:57.3532328+05:30 0HLIV51JV9MGI:0000000C [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login application/json 0 (ca22a1cb)
+2018-12-11T10:57:57.3535402+05:30 0HLIV51JV9MGI:0000000C [INF] Executing action method "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" with arguments ([""]) - ModelState is Invalid (ba7f4ac2)
+2018-12-11T10:57:57.3543062+05:30 0HLIV51JV9MGI:0000000C [INF] Executed DbCommand ("0"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T10:57:57.3858515+05:30 0HLIV51JV9MGI:0000000C [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 32.4274ms (afa2e885)
+2018-12-11T10:57:57.4037095+05:30 0HLIV51JV9MGI:0000000C [INF] Request finished in 50.4679ms 500 application/json (791a596a)
+2018-12-11T10:58:04.8611194+05:30 0HLIV51JV9MGI:0000000D [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login application/x-www-form-urlencoded 0 (ca22a1cb)
+2018-12-11T10:58:04.8615061+05:30 0HLIV51JV9MGI:0000000D [INF] Executing HttpStatusCodeResult, setting HTTP status code 415 (e28ccfae)
+2018-12-11T10:58:04.8615741+05:30 0HLIV51JV9MGI:0000000D [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 0.3243ms (afa2e885)
+2018-12-11T10:58:04.8616227+05:30 0HLIV51JV9MGI:0000000D [INF] Request finished in 0.5321ms 415  (791a596a)
+2018-12-11T10:58:12.0986919+05:30 0HLIV51JV9MGI:0000000E [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login application/json 47 (ca22a1cb)
+2018-12-11T10:58:12.2010817+05:30 0HLIV51JV9MGI:0000000E [INF] Executing action method "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" with arguments (["Dodos.UI.Models.LoginModel"]) - ModelState is Valid (ba7f4ac2)
+2018-12-11T10:58:12.2018845+05:30 0HLIV51JV9MGI:0000000E [INF] Executed DbCommand ("0"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T10:58:12.2533974+05:30 0HLIV51JV9MGI:0000000E [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T10:58:12.2538972+05:30 0HLIV51JV9MGI:0000000E [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 155.0108ms (afa2e885)
+2018-12-11T10:58:12.2567487+05:30 0HLIV51JV9MGI:0000000E [INF] Request finished in 158.086ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T11:01:59.5769778+05:30 0HLIV51JV9MGI:0000000F [INF] Request starting HTTP/1.1 POST http://localhost:5000/Login application/json 47 (ca22a1cb)
+2018-12-11T11:01:59.5893337+05:30 0HLIV51JV9MGI:0000000F [INF] Request finished in 12.4148ms 200 text/html (791a596a)
+2018-12-11T11:03:00.0963066+05:30 0HLIV588K7UPO:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login application/json  (ca22a1cb)
+2018-12-11T11:03:00.5438724+05:30 0HLIV588K7UPO:00000001 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-12-11T11:03:01.0708393+05:30 0HLIV588K7UPO:00000001 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MaxPoolSize=128 " (9958f5bb)
+2018-12-11T11:03:01.6274517+05:30 0HLIV588K7UPO:00000001 [INF] Executed DbCommand ("71"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T11:03:01.7268157+05:30 0HLIV588K7UPO:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T11:03:01.8490321+05:30 0HLIV588K7UPO:00000001 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 1459.2351ms (afa2e885)
+2018-12-11T11:03:01.8640329+05:30 0HLIV588K7UPO:00000001 [INF] Request finished in 1778.3911ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T11:03:43.1867216+05:30 0HLIV58P76QMC:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login application/json  (ca22a1cb)
+2018-12-11T11:03:43.6584458+05:30 0HLIV58P76QMC:00000001 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-12-11T11:03:44.1181634+05:30 0HLIV58P76QMC:00000001 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MaxPoolSize=128 " (9958f5bb)
+2018-12-11T11:03:44.7181527+05:30 0HLIV58P76QMC:00000001 [INF] Executed DbCommand ("73"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T11:03:44.8205323+05:30 0HLIV58P76QMC:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T11:03:44.9458200+05:30 0HLIV58P76QMC:00000001 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 1459.5594ms (afa2e885)
+2018-12-11T11:03:44.9586306+05:30 0HLIV58P76QMC:00000001 [INF] Request finished in 1782.3085ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T11:03:52.3432819+05:30 0HLIV58P76QMC:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login application/json  (ca22a1cb)
+2018-12-11T11:03:52.3458234+05:30 0HLIV58P76QMC:00000002 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-12-11T11:03:52.3563483+05:30 0HLIV58P76QMC:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T11:03:52.3567054+05:30 0HLIV58P76QMC:00000002 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T11:03:52.3569219+05:30 0HLIV58P76QMC:00000002 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 11.8143ms (afa2e885)
+2018-12-11T11:03:52.3571139+05:30 0HLIV58P76QMC:00000002 [INF] Request finished in 13.8583ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T11:04:31.3378490+05:30 0HLIV59606MHB:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login application/json  (ca22a1cb)
+2018-12-11T11:04:31.7825364+05:30 0HLIV59606MHB:00000001 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-12-11T11:04:35.9514946+05:30 0HLIV59606MHB:00000001 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MaxPoolSize=128 " (9958f5bb)
+2018-12-11T11:04:36.5274508+05:30 0HLIV59606MHB:00000001 [INF] Executed DbCommand ("81"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T11:04:36.6812773+05:30 0HLIV59606MHB:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T11:04:36.8065645+05:30 0HLIV59606MHB:00000001 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 5172.9846ms (afa2e885)
+2018-12-11T11:04:36.8217547+05:30 0HLIV59606MHB:00000001 [INF] Request finished in 5491.6977ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T11:04:51.9023765+05:30 0HLIV59606MHB:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login application/json  (ca22a1cb)
+2018-12-11T11:04:51.9060696+05:30 0HLIV59606MHB:00000002 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-12-11T11:04:55.4150000+05:30 0HLIV59606MHB:00000002 [INF] Executed DbCommand ("4"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T11:04:55.4153745+05:30 0HLIV59606MHB:00000002 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T11:04:55.4156115+05:30 0HLIV59606MHB:00000002 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 3510.5351ms (afa2e885)
+2018-12-11T11:04:55.4157656+05:30 0HLIV59606MHB:00000002 [INF] Request finished in 3513.3981ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T11:05:05.4768982+05:30 0HLIV59606MHB:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login application/json  (ca22a1cb)
+2018-12-11T11:05:05.4781502+05:30 0HLIV59606MHB:00000003 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-12-11T11:05:09.9570330+05:30 0HLIV59606MHB:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T11:05:10.5596215+05:30 0HLIV59606MHB:00000003 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T11:05:10.5600244+05:30 0HLIV59606MHB:00000003 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 5081.9437ms (afa2e885)
+2018-12-11T11:05:10.8370988+05:30 0HLIV59606MHB:00000003 [INF] Request finished in 5360.2112ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T11:05:31.7820280+05:30 0HLIV59606MHB:00000004 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login application/json 47 (ca22a1cb)
+2018-12-11T11:05:31.9795144+05:30 0HLIV59606MHB:00000004 [INF] Executing action method "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" with arguments (["Dodos.UI.Models.LoginModel"]) - ModelState is Valid (ba7f4ac2)
+2018-12-11T11:05:35.7887472+05:30 0HLIV59606MHB:00000004 [INF] Executed DbCommand ("1"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T11:05:40.5259155+05:30 0HLIV59606MHB:00000004 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T11:05:40.5264591+05:30 0HLIV59606MHB:00000004 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 8720.0412ms (afa2e885)
+2018-12-11T11:05:40.8765355+05:30 0HLIV59606MHB:00000004 [INF] Request finished in 9094.6264ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T11:19:18.1885701+05:30 0HLIV5GFUHLOC:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login   (ca22a1cb)
+2018-12-11T11:19:18.7034075+05:30 0HLIV5GFUHLOC:00000001 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-12-11T11:19:22.0213112+05:30 0HLIV5GFUHLOC:00000001 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MaxPoolSize=128 " (9958f5bb)
+2018-12-11T11:19:22.7458643+05:30 0HLIV5GFUHLOC:00000001 [INF] Executed DbCommand ("86"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T11:19:22.8755163+05:30 0HLIV5GFUHLOC:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T11:19:23.0266484+05:30 0HLIV5GFUHLOC:00000001 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 4500.3926ms (afa2e885)
+2018-12-11T11:19:23.0460400+05:30 0HLIV5GFUHLOC:00000001 [INF] Request finished in 4871.3128ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T11:19:36.1464663+05:30 0HLIV5GFUHLOF:00000001 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login application/json 47 (ca22a1cb)
+2018-12-11T11:19:36.3933486+05:30 0HLIV5GFUHLOF:00000001 [INF] Executing action method "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" with arguments (["Dodos.UI.Models.LoginModel"]) - ModelState is Valid (ba7f4ac2)
+2018-12-11T11:19:40.1809351+05:30 0HLIV5GFUHLOF:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T11:19:40.2463673+05:30 0HLIV5GFUHLOF:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T11:19:40.2518496+05:30 0HLIV5GFUHLOF:00000001 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 4074.8595ms (afa2e885)
+2018-12-11T11:19:40.2572848+05:30 0HLIV5GFUHLOF:00000001 [INF] Request finished in 4110.8259ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T11:19:55.3441665+05:30 0HLIV5GFUHLOF:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login text/plain 47 (ca22a1cb)
+2018-12-11T11:19:55.3553183+05:30 0HLIV5GFUHLOF:00000002 [INF] Executing HttpStatusCodeResult, setting HTTP status code 415 (e28ccfae)
+2018-12-11T11:19:55.3555692+05:30 0HLIV5GFUHLOF:00000002 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 10.2609ms (afa2e885)
+2018-12-11T11:19:55.3582686+05:30 0HLIV5GFUHLOF:00000002 [INF] Request finished in 14.1424ms 415  (791a596a)
+2018-12-11T11:20:03.5038371+05:30 0HLIV5GFUHLOF:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login text/plain 47 (ca22a1cb)
+2018-12-11T11:20:03.5040828+05:30 0HLIV5GFUHLOF:00000003 [INF] Executing HttpStatusCodeResult, setting HTTP status code 415 (e28ccfae)
+2018-12-11T11:20:03.5041184+05:30 0HLIV5GFUHLOF:00000003 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 0.158ms (afa2e885)
+2018-12-11T11:20:03.5043753+05:30 0HLIV5GFUHLOF:00000003 [INF] Request finished in 0.5598ms 415  (791a596a)
+2018-12-11T11:20:33.0133826+05:30 0HLIV5I6CTMF9:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login   (ca22a1cb)
+2018-12-11T11:20:33.5069352+05:30 0HLIV5I6CTMF9:00000001 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-12-11T11:20:40.4405107+05:30 0HLIV5I6CTMF9:00000001 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MaxPoolSize=128 " (9958f5bb)
+2018-12-11T11:20:41.0268364+05:30 0HLIV5I6CTMF9:00000001 [INF] Executed DbCommand ("73"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T11:20:41.1396278+05:30 0HLIV5I6CTMF9:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T11:20:41.2760511+05:30 0HLIV5I6CTMF9:00000001 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 7942.9068ms (afa2e885)
+2018-12-11T11:20:41.2944930+05:30 0HLIV5I6CTMF9:00000001 [INF] Request finished in 8294.0549ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T11:20:55.0839854+05:30 0HLIV5I6CTMFB:00000001 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login text/plain 47 (ca22a1cb)
+2018-12-11T11:20:55.1506268+05:30 0HLIV5I6CTMFB:00000001 [INF] Executing HttpStatusCodeResult, setting HTTP status code 415 (e28ccfae)
+2018-12-11T11:20:55.1508938+05:30 0HLIV5I6CTMFB:00000001 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 41.8299ms (afa2e885)
+2018-12-11T11:20:55.1705739+05:30 0HLIV5I6CTMFB:00000001 [INF] Request finished in 86.5837ms 415  (791a596a)
+2018-12-11T11:21:09.8708249+05:30 0HLIV5I6CTMFB:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login application/json 47 (ca22a1cb)
+2018-12-11T11:21:10.0513010+05:30 0HLIV5I6CTMFB:00000002 [INF] Executing action method "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" with arguments (["Dodos.UI.Models.LoginModel"]) - ModelState is Valid (ba7f4ac2)
+2018-12-11T11:21:12.8211158+05:30 0HLIV5I6CTMFB:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T11:21:12.8810965+05:30 0HLIV5I6CTMFB:00000002 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T11:21:12.8815705+05:30 0HLIV5I6CTMFB:00000002 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 3009.7951ms (afa2e885)
+2018-12-11T11:21:12.8844664+05:30 0HLIV5I6CTMFB:00000002 [INF] Request finished in 3013.7185ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T11:25:20.1736628+05:30 0HLIV5I6CTMFB:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login application/json 47 (ca22a1cb)
+2018-12-11T11:25:20.1761118+05:30 0HLIV5I6CTMFB:00000003 [INF] Executing action method "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" with arguments (["Dodos.UI.Models.LoginModel"]) - ModelState is Valid (ba7f4ac2)
+2018-12-11T11:25:31.3490526+05:30 0HLIV5I6CTMFB:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T11:25:31.3495496+05:30 0HLIV5I6CTMFB:00000003 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T11:25:31.3497495+05:30 0HLIV5I6CTMFB:00000003 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 11175.9313ms (afa2e885)
+2018-12-11T11:25:31.3498270+05:30 0HLIV5I6CTMFB:00000003 [INF] Request finished in 11176.2261ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T11:25:55.0510344+05:30 0HLIV5I6CTMFB:00000004 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login application/json 45 (ca22a1cb)
+2018-12-11T11:25:55.0516491+05:30 0HLIV5I6CTMFB:00000004 [INF] Executing action method "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" with arguments (["Dodos.UI.Models.LoginModel"]) - ModelState is Valid (ba7f4ac2)
+2018-12-11T11:25:59.2520439+05:30 0HLIV5I6CTMFB:00000004 [INF] Executed DbCommand ("1"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T11:25:59.2523509+05:30 0HLIV5I6CTMFB:00000004 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T11:25:59.2524330+05:30 0HLIV5I6CTMFB:00000004 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 4201.205ms (afa2e885)
+2018-12-11T11:25:59.2524986+05:30 0HLIV5I6CTMFB:00000004 [INF] Request finished in 4201.5697ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T11:26:41.8667059+05:30 0HLIV5I6CTMFB:00000005 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login application/json 55 (ca22a1cb)
+2018-12-11T11:26:41.8673199+05:30 0HLIV5I6CTMFB:00000005 [INF] Executing action method "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" with arguments (["Dodos.UI.Models.LoginModel"]) - ModelState is Valid (ba7f4ac2)
+2018-12-11T12:33:55.9646055+05:30 0HLIV6R2B74GT:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login   (ca22a1cb)
+2018-12-11T12:33:56.4293268+05:30 0HLIV6R2B74GT:00000001 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-12-11T12:33:56.7268168+05:30 0HLIV6R2B74GT:00000001 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 460.7221ms (afa2e885)
+2018-12-11T12:33:57.0409856+05:30 0HLIV6R2B74GT:00000001 [ERR] Connection id ""0HLIV6R2B74GT"", Request id ""0HLIV6R2B74GT:00000001"": An unhandled exception was thrown by the application. (560e7d32)
+System.InvalidOperationException: The entity type 'LoginModel' requires a primary key to be defined.
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidateNonNullPrimaryKeys(IModel model)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Internal.SqlServerModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.CreateModel(DbContext context, IConventionSetBuilder conventionSetBuilder, IModelValidator validator)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.Microsoft.EntityFrameworkCore.Internal.IDbContextPoolable.ResetState()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextPool`1.Return(TContext context)
+   at Microsoft.EntityFrameworkCore.DbContext.Dispose()
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.Dispose()
+   at Microsoft.AspNetCore.Hosting.Internal.RequestServicesFeature.Dispose()
+   at Microsoft.AspNetCore.Hosting.Internal.RequestServicesContainerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Frame`1.ProcessRequestsAsync()
+2018-12-11T12:33:57.0464071+05:30 0HLIV6R2B74GT:00000001 [INF] Request finished in 1095.5749ms 500 application/json (791a596a)
+2018-12-11T12:34:35.3893877+05:30 0HLIV6R2B74H0:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login application/json  (ca22a1cb)
+2018-12-11T12:34:35.3919315+05:30 0HLIV6R2B74H0:00000001 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-12-11T12:34:35.4488840+05:30 0HLIV6R2B74H0:00000001 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 57.6063ms (afa2e885)
+2018-12-11T12:34:35.4928726+05:30 0HLIV6R2B74H0:00000001 [ERR] Connection id ""0HLIV6R2B74H0"", Request id ""0HLIV6R2B74H0:00000001"": An unhandled exception was thrown by the application. (560e7d32)
+System.InvalidOperationException: The entity type 'LoginModel' requires a primary key to be defined.
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.ValidateNonNullPrimaryKeys(IModel model)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Infrastructure.RelationalModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Internal.SqlServerModelValidator.Validate(IModel model)
+   at Microsoft.EntityFrameworkCore.Infrastructure.ModelSource.CreateModel(DbContext context, IConventionSetBuilder conventionSetBuilder, IModelValidator validator)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.CreateModel()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextServices.get_Model()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, ServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetService[T](IServiceProvider provider)
+   at Microsoft.EntityFrameworkCore.DbContext.Microsoft.EntityFrameworkCore.Internal.IDbContextPoolable.ResetState()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextPool`1.Return(TContext context)
+   at Microsoft.EntityFrameworkCore.DbContext.Dispose()
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.Dispose()
+   at Microsoft.AspNetCore.Hosting.Internal.RequestServicesFeature.Dispose()
+   at Microsoft.AspNetCore.Hosting.Internal.RequestServicesContainerMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Frame`1.ProcessRequestsAsync()
+2018-12-11T12:34:35.4929848+05:30 0HLIV6R2B74H0:00000001 [INF] Request finished in 103.6188ms 500 application/json (791a596a)
+2018-12-11T12:35:33.4247058+05:30 0HLIV6S1OKP2L:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login   (ca22a1cb)
+2018-12-11T12:35:33.8994468+05:30 0HLIV6S1OKP2L:00000001 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-12-11T12:35:34.2295578+05:30 0HLIV6S1OKP2L:00000001 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MaxPoolSize=128 " (9958f5bb)
+2018-12-11T12:35:34.8247737+05:30 0HLIV6S1OKP2L:00000001 [INF] Executed DbCommand ("73"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T12:35:34.8798181+05:30 0HLIV6S1OKP2L:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T12:35:35.0086482+05:30 0HLIV6S1OKP2L:00000001 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 1275.457ms (afa2e885)
+2018-12-11T12:35:35.0248067+05:30 0HLIV6S1OKP2L:00000001 [INF] Request finished in 1609.8837ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T12:37:02.4410977+05:30 0HLIV6STCS8RF:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login   (ca22a1cb)
+2018-12-11T12:37:02.9139677+05:30 0HLIV6STCS8RF:00000001 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-12-11T12:37:03.2409253+05:30 0HLIV6STCS8RF:00000001 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MaxPoolSize=128 " (9958f5bb)
+2018-12-11T12:37:03.8463085+05:30 0HLIV6STCS8RF:00000001 [INF] Executed DbCommand ("74"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T12:37:03.9522369+05:30 0HLIV6STCS8RF:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T12:37:04.0809083+05:30 0HLIV6STCS8RF:00000001 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 1327.5182ms (afa2e885)
+2018-12-11T12:37:04.0963702+05:30 0HLIV6STCS8RF:00000001 [INF] Request finished in 1666.5557ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T12:37:08.0419970+05:30 0HLIV6STCS8RH:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login application/json  (ca22a1cb)
+2018-12-11T12:37:08.0450437+05:30 0HLIV6STCS8RH:00000001 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-12-11T12:37:08.0538437+05:30 0HLIV6STCS8RH:00000001 [INF] Executed DbCommand ("2"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T12:37:08.0541985+05:30 0HLIV6STCS8RH:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T12:37:08.0544679+05:30 0HLIV6STCS8RH:00000001 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 10.522ms (afa2e885)
+2018-12-11T12:37:08.0546212+05:30 0HLIV6STCS8RH:00000001 [INF] Request finished in 12.6597ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T12:37:31.1817549+05:30 0HLIV6STCS8RH:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login application/json 69 (ca22a1cb)
+2018-12-11T12:37:31.3990185+05:30 0HLIV6STCS8RH:00000002 [INF] Executing action method "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" with arguments (["Dodos.UI.Models.LoginModel"]) - ModelState is Valid (ba7f4ac2)
+2018-12-11T12:37:31.4087516+05:30 0HLIV6STCS8RH:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T12:37:31.4654568+05:30 0HLIV6STCS8RH:00000002 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T12:37:31.4658720+05:30 0HLIV6STCS8RH:00000002 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 249.8289ms (afa2e885)
+2018-12-11T12:37:31.4701154+05:30 0HLIV6STCS8RH:00000002 [INF] Request finished in 288.417ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T16:40:42.5958459+05:30 0HLIVB50NFUN2:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login   (ca22a1cb)
+2018-12-11T16:40:43.0737434+05:30 0HLIVB50NFUN2:00000001 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-12-11T16:40:43.4001914+05:30 0HLIVB50NFUN2:00000001 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MaxPoolSize=128 " (9958f5bb)
+2018-12-11T16:40:44.0317906+05:30 0HLIVB50NFUN2:00000001 [INF] Executed DbCommand ("77"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T16:40:44.1403125+05:30 0HLIVB50NFUN2:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T16:40:44.2707762+05:30 0HLIVB50NFUN2:00000001 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 1358.7827ms (afa2e885)
+2018-12-11T16:40:44.2873534+05:30 0HLIVB50NFUN2:00000001 [INF] Request finished in 1702.1236ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T16:49:21.9863118+05:30 0HLIVB9UGP7UR:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login   (ca22a1cb)
+2018-12-11T16:49:22.5218792+05:30 0HLIVB9UGP7UR:00000001 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (["", ""]) - ModelState is Valid (ba7f4ac2)
+2018-12-11T16:49:22.8471010+05:30 0HLIVB9UGP7UR:00000001 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MaxPoolSize=128 " (9958f5bb)
+2018-12-11T16:49:23.3891810+05:30 0HLIVB9UGP7UR:00000001 [INF] Executed DbCommand ("39"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE [x].[UserName] IS NULL AND [x].[Password] IS NULL" (0723d8ff)
+2018-12-11T16:49:23.4434918+05:30 0HLIVB9UGP7UR:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T16:49:23.5639991+05:30 0HLIVB9UGP7UR:00000001 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 1238.8699ms (afa2e885)
+2018-12-11T16:49:23.5797562+05:30 0HLIVB9UGP7UR:00000001 [INF] Request finished in 1606.7102ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T16:49:42.4884625+05:30 0HLIVB9UGP7UR:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login   (ca22a1cb)
+2018-12-11T16:49:42.4932728+05:30 0HLIVB9UGP7UR:00000002 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (["", ""]) - ModelState is Valid (ba7f4ac2)
+2018-12-11T16:49:42.5116274+05:30 0HLIVB9UGP7UR:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE [x].[UserName] IS NULL AND [x].[Password] IS NULL" (0723d8ff)
+2018-12-11T16:49:42.5120481+05:30 0HLIVB9UGP7UR:00000002 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T16:49:42.5123701+05:30 0HLIVB9UGP7UR:00000002 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 20.4713ms (afa2e885)
+2018-12-11T16:49:42.5125578+05:30 0HLIVB9UGP7UR:00000002 [INF] Request finished in 24.0964ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T17:18:03.8958596+05:30 0HLIVBPV4R2ER:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login   (ca22a1cb)
+2018-12-11T17:18:04.4502236+05:30 0HLIVBPV4R2ER:00000001 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (["", ""]) - ModelState is Valid (ba7f4ac2)
+2018-12-11T17:18:04.7828552+05:30 0HLIVBPV4R2ER:00000001 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MaxPoolSize=128 " (9958f5bb)
+2018-12-11T17:18:05.3383887+05:30 0HLIVBPV4R2ER:00000001 [INF] Executed DbCommand ("40"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE [x].[UserName] IS NULL AND [x].[Password] IS NULL" (0723d8ff)
+2018-12-11T17:18:05.3935729+05:30 0HLIVBPV4R2ER:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T17:18:05.5209761+05:30 0HLIVBPV4R2ER:00000001 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 1285.6097ms (afa2e885)
+2018-12-11T17:18:05.5373376+05:30 0HLIVBPV4R2ER:00000001 [INF] Request finished in 1650.965ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T17:18:49.5906915+05:30 0HLIVBPV4R2EU:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login   (ca22a1cb)
+2018-12-11T17:18:49.5969952+05:30 0HLIVBPV4R2EU:00000001 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (["", ""]) - ModelState is Valid (ba7f4ac2)
+2018-12-11T17:18:49.6287463+05:30 0HLIVBPV4R2EU:00000001 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE [x].[UserName] IS NULL AND [x].[Password] IS NULL" (0723d8ff)
+2018-12-11T17:18:49.6289857+05:30 0HLIVBPV4R2EU:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T17:18:49.6292741+05:30 0HLIVBPV4R2EU:00000001 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 33.4898ms (afa2e885)
+2018-12-11T17:18:49.6294100+05:30 0HLIVBPV4R2EU:00000001 [INF] Request finished in 38.7611ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T17:20:16.4284957+05:30 0HLIVBPV4R2EU:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login application/json 67 (ca22a1cb)
+2018-12-11T17:20:16.6061803+05:30 0HLIVBPV4R2EU:00000002 [INF] Executing action method "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" with arguments (["Dodos.UI.Models.LoginModel"]) - ModelState is Valid (ba7f4ac2)
+2018-12-11T17:20:16.6196792+05:30 0HLIVBPV4R2EU:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE [x].[UserName] IS NULL AND [x].[Password] IS NULL" (0723d8ff)
+2018-12-11T17:20:16.7489546+05:30 0HLIVBPV4R2EU:00000002 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T17:20:16.7494097+05:30 0HLIVBPV4R2EU:00000002 [INF] Executed action "Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" in 317.9317ms (afa2e885)
+2018-12-11T17:20:16.7538059+05:30 0HLIVBPV4R2EU:00000002 [INF] Request finished in 325.3659ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T17:20:23.0439024+05:30 0HLIVBPV4R2EU:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login application/json  (ca22a1cb)
+2018-12-11T17:20:23.0442895+05:30 0HLIVBPV4R2EU:00000003 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (["", ""]) - ModelState is Valid (ba7f4ac2)
+2018-12-11T17:20:23.0452215+05:30 0HLIVBPV4R2EU:00000003 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE [x].[UserName] IS NULL AND [x].[Password] IS NULL" (0723d8ff)
+2018-12-11T17:20:23.0453696+05:30 0HLIVBPV4R2EU:00000003 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T17:20:23.0454387+05:30 0HLIVBPV4R2EU:00000003 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 1.2634ms (afa2e885)
+2018-12-11T17:20:23.0455110+05:30 0HLIVBPV4R2EU:00000003 [INF] Request finished in 1.6351ms 200 application/json; charset=utf-8 (791a596a)
+2018-12-11T17:21:19.8753598+05:30 0HLIVBRN1NRB0:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Login   (ca22a1cb)
+2018-12-11T17:21:20.4099518+05:30 0HLIVBRN1NRB0:00000001 [INF] Executing action method "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" with arguments (["", ""]) - ModelState is Valid (ba7f4ac2)
+2018-12-11T17:21:20.7461413+05:30 0HLIVBRN1NRB0:00000001 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MaxPoolSize=128 " (9958f5bb)
+2018-12-11T17:21:21.3495492+05:30 0HLIVBRN1NRB0:00000001 [INF] Executed DbCommand ("76"ms) [Parameters=["@__username_0='?' (Size = 4000), @__password_1='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[UserID], [x].[AuthStatus], [x].[CreatedBy], [x].[CreatedDate], [x].[Password], [x].[UpdatedBy], [x].[UpdatedDate], [x].[UserName]
+FROM [Logins] AS [x]
+WHERE ([x].[UserName] = @__username_0) AND ([x].[Password] = @__password_1)" (0723d8ff)
+2018-12-11T17:21:21.4522898+05:30 0HLIVBRN1NRB0:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-11T17:21:21.5722354+05:30 0HLIVBRN1NRB0:00000001 [INF] Executed action "Dodos.UI.Controllers.LoginController.GetLoginDetails (Dodos.UI)" in 1355.0612ms (afa2e885)
+2018-12-11T17:21:21.5875097+05:30 0HLIVBRN1NRB0:00000001 [INF] Request finished in 1724.4829ms 200 application/json; charset=utf-8 (791a596a)

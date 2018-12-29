@@ -1,0 +1,710 @@
+2018-12-05T10:44:33.5248343+05:30 0HLIQE25F4N6H:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/   (ca22a1cb)
+2018-12-05T10:44:33.6313612+05:30 0HLIQE25F4N6H:00000001 [INF] Sending file. Request path: '"/index.html"'. Physical path: '"E:\Maran\Dodos-core\Dodos.UI\wwwroot\index.html"' (27b0a520)
+2018-12-05T10:44:33.7031123+05:30 0HLIQE25F4N6H:00000001 [INF] Request finished in 194.1125ms 200 text/html (791a596a)
+2018-12-05T11:07:35.0772226+05:30  [FTL] Unable to start Kestrel. (fc6a528d)
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5000: address already in use. ---> Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.Internal.AddressInUseException: Error -4091 EADDRINUSE address already in use ---> Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvException: Error -4091 EADDRINUSE address already in use
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.LibuvFunctions.ThrowError(Int32 statusCode)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.LibuvFunctions.tcp_getsockname(UvTcpHandle handle, SockAddr& addr, Int32& namelen)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvTcpHandle.GetSockIPEndPoint()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.ListenTcp(Boolean useFileHandle)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.CreateListenSocket()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.<>c.<StartAsync>b__8_0(Listener listener)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.LibuvThread.CallbackAdapter`1.<>c.<.cctor>b__3_1(Object callback, Object state)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.LibuvThread.DoPostWork()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.ListenerPrimary.<StartAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.LibuvTransport.<BindAsync>d__20.MoveNext()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.LibuvTransport.<BindAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindEndpointAsync>d__5.MoveNext()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindEndpointAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindLocalhostAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.DefaultAddressStrategy.<BindAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<StartAsync>d__21`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.<StartAsync>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.WebHostExtensions.<RunAsync>d__5.MoveNext()
+2018-12-05T11:58:04.5206743+05:30  [FTL] Unable to start Kestrel. (fc6a528d)
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5000: address already in use. ---> Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.Internal.AddressInUseException: Error -4091 EADDRINUSE address already in use ---> Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvException: Error -4091 EADDRINUSE address already in use
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.LibuvFunctions.ThrowError(Int32 statusCode)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.LibuvFunctions.tcp_getsockname(UvTcpHandle handle, SockAddr& addr, Int32& namelen)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvTcpHandle.GetSockIPEndPoint()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.ListenTcp(Boolean useFileHandle)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.CreateListenSocket()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.<>c.<StartAsync>b__8_0(Listener listener)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.LibuvThread.CallbackAdapter`1.<>c.<.cctor>b__3_1(Object callback, Object state)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.LibuvThread.DoPostWork()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.ListenerPrimary.<StartAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.LibuvTransport.<BindAsync>d__20.MoveNext()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.LibuvTransport.<BindAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindEndpointAsync>d__5.MoveNext()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindEndpointAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindLocalhostAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.DefaultAddressStrategy.<BindAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<StartAsync>d__21`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.<StartAsync>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.WebHostExtensions.<RunAsync>d__5.MoveNext()
+2018-12-05T12:02:33.0660318+05:30  [FTL] Unable to start Kestrel. (fc6a528d)
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5000: address already in use. ---> Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.Internal.AddressInUseException: Error -4091 EADDRINUSE address already in use ---> Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvException: Error -4091 EADDRINUSE address already in use
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.LibuvFunctions.ThrowError(Int32 statusCode)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.LibuvFunctions.tcp_getsockname(UvTcpHandle handle, SockAddr& addr, Int32& namelen)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvTcpHandle.GetSockIPEndPoint()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.ListenTcp(Boolean useFileHandle)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.CreateListenSocket()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.<>c.<StartAsync>b__8_0(Listener listener)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.LibuvThread.CallbackAdapter`1.<>c.<.cctor>b__3_1(Object callback, Object state)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.LibuvThread.DoPostWork()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.ListenerPrimary.<StartAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.LibuvTransport.<BindAsync>d__20.MoveNext()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.LibuvTransport.<BindAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindEndpointAsync>d__5.MoveNext()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindEndpointAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindLocalhostAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.DefaultAddressStrategy.<BindAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<StartAsync>d__21`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.<StartAsync>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.WebHostExtensions.<RunAsync>d__5.MoveNext()
+2018-12-05T12:08:35.5306176+05:30 0HLIQFG322DLF:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Employee/GetAllEmployees   (ca22a1cb)
+2018-12-05T12:08:47.5790005+05:30 0HLIQFG322DLF:00000001 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MaxPoolSize=128 " (9958f5bb)
+2018-12-05T12:09:32.5756100+05:30 0HLIQFG322DLF:00000001 [INF] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [d].[DepartmentID], [d].[DepartmentName]
+FROM [Departments] AS [d]" (0723d8ff)
+2018-12-05T12:09:32.7009126+05:30 0HLIQFG322DLF:00000001 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [d].[DepartmentID], [d].[DepartmentName]
+FROM [Departments] AS [d]" (0723d8ff)
+2018-12-05T12:09:58.3464310+05:30 0HLIQFG322DLF:00000001 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[EmployeeID], [e].[DepartmentID], [e].[EmpNo], [e].[EmployeeAddress], [e].[EmployeeContactNo], [e].[EmployeeName]
+FROM [Employees] AS [e]" (0723d8ff)
+2018-12-05T12:09:58.3770060+05:30 0HLIQFG322DLF:00000001 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[EmployeeID], [e].[DepartmentID], [e].[EmpNo], [e].[EmployeeAddress], [e].[EmployeeContactNo], [e].[EmployeeName]
+FROM [Employees] AS [e]" (0723d8ff)
+2018-12-05T12:10:48.6811355+05:30 0HLIQFG322DLF:00000001 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [d].[DepartmentID], [d].[DepartmentName]
+FROM [Departments] AS [d]" (0723d8ff)
+2018-12-05T12:10:48.6969194+05:30 0HLIQFG322DLF:00000001 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [d].[DepartmentID], [d].[DepartmentName]
+FROM [Departments] AS [d]" (0723d8ff)
+2018-12-05T12:10:48.7193996+05:30 0HLIQFG322DLF:00000001 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[EmployeeID], [e].[DepartmentID], [e].[EmpNo], [e].[EmployeeAddress], [e].[EmployeeContactNo], [e].[EmployeeName]
+FROM [Employees] AS [e]" (0723d8ff)
+2018-12-05T12:10:48.7367464+05:30 0HLIQFG322DLF:00000001 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[EmployeeID], [e].[DepartmentID], [e].[EmpNo], [e].[EmployeeAddress], [e].[EmployeeContactNo], [e].[EmployeeName]
+FROM [Employees] AS [e]" (0723d8ff)
+2018-12-05T12:11:21.5681473+05:30 0HLIQFG322DLF:00000001 [INF] Executing action method "Dodos.UI.Controllers.EmployeeController.Get (Dodos.UI)" with arguments (["GetAllEmployees"]) - ModelState is Valid (ba7f4ac2)
+2018-12-05T12:11:36.2882597+05:30 0HLIQFG322DLF:00000001 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200 (e28ccfae)
+2018-12-05T12:11:36.2912337+05:30 0HLIQFG322DLF:00000001 [INF] Executed action "Dodos.UI.Controllers.EmployeeController.Get (Dodos.UI)" in 179721.5902ms (afa2e885)
+2018-12-05T12:11:41.7439855+05:30 0HLIQFG322DLF:00000001 [INF] Request finished in 186219.1452ms 200  (791a596a)
+2018-12-05T12:12:20.3023369+05:30 0HLIQFG322DLF:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Employee/GetAllEmployees   (ca22a1cb)
+2018-12-05T12:12:36.4357723+05:30 0HLIQFG322DLF:00000002 [INF] Executing action method "Dodos.UI.Controllers.EmployeeController.Get (Dodos.UI)" with arguments (["GetAllEmployees"]) - ModelState is Valid (ba7f4ac2)
+2018-12-05T12:12:43.8207247+05:30 0HLIQFG322DLF:00000002 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200 (e28ccfae)
+2018-12-05T12:12:43.8208515+05:30 0HLIQFG322DLF:00000002 [INF] Executed action "Dodos.UI.Controllers.EmployeeController.Get (Dodos.UI)" in 15336.3585ms (afa2e885)
+2018-12-05T12:12:55.0121567+05:30 0HLIQFG322DLF:00000002 [INF] Request finished in 34709.8431ms 200  (791a596a)
+2018-12-05T12:15:24.7347698+05:30  [FTL] Unable to start Kestrel. (fc6a528d)
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5000: address already in use. ---> Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.Internal.AddressInUseException: Error -4091 EADDRINUSE address already in use ---> Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvException: Error -4091 EADDRINUSE address already in use
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.LibuvFunctions.ThrowError(Int32 statusCode)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvTcpHandle.GetSockIPEndPoint()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.ListenTcp(Boolean useFileHandle)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.<>c.<StartAsync>b__8_0(Listener listener)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.LibuvThread.DoPostWork()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.ListenerPrimary.StartAsync(String pipeName, Byte[] pipeMessage, IEndPointInformation endPointInformation, LibuvThread thread)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.LibuvTransport.BindAsync()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.LibuvTransport.BindAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindLocalhostAsync(ServerAddress address, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.DefaultAddressStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, List`1 listenOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+2018-12-05T12:15:42.1079427+05:30 0HLIQFG322DLJ:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Employee/GetAllEmployees   (ca22a1cb)
+2018-12-05T12:15:58.8913879+05:30 0HLIQFG322DLJ:00000001 [INF] Executing action method "Dodos.UI.Controllers.EmployeeController.Get (Dodos.UI)" with arguments (["GetAllEmployees"]) - ModelState is Valid (ba7f4ac2)
+2018-12-05T12:16:00.4205087+05:30 0HLIQFG322DLJ:00000001 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200 (e28ccfae)
+2018-12-05T12:16:00.4205597+05:30 0HLIQFG322DLJ:00000001 [INF] Executed action "Dodos.UI.Controllers.EmployeeController.Get (Dodos.UI)" in 8455.2319ms (afa2e885)
+2018-12-05T12:16:03.6452476+05:30 0HLIQFG322DLJ:00000001 [INF] Request finished in 21537.3618ms 200  (791a596a)
+2018-12-05T12:17:24.5613565+05:30 0HLIQFM1NU9KN:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Employee/GetAllEmployees   (ca22a1cb)
+2018-12-05T12:17:25.6859248+05:30 0HLIQFM1NU9KN:00000001 [INF] Executing action method "Dodos.UI.Controllers.EmployeeController.Get (Dodos.UI)" with arguments (["GetAllEmployees"]) - ModelState is Valid (ba7f4ac2)
+2018-12-05T12:17:25.6942215+05:30 0HLIQFM1NU9KN:00000001 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200 (e28ccfae)
+2018-12-05T12:17:25.7022247+05:30 0HLIQFM1NU9KN:00000001 [INF] Executed action "Dodos.UI.Controllers.EmployeeController.Get (Dodos.UI)" in 495.4469ms (afa2e885)
+2018-12-05T12:17:25.7351416+05:30 0HLIQFM1NU9KN:00000001 [INF] Request finished in 1183.7109ms 200  (791a596a)
+2018-12-05T12:26:45.6409794+05:30 0HLIQFR901OGR:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Employee/GetAllEmployees   (ca22a1cb)
+2018-12-05T12:26:46.1238084+05:30 0HLIQFR901OGR:00000001 [INF] Executing action method "Dodos.UI.Controllers.EmployeeController.Get (Dodos.UI)" with arguments (["GetAllEmployees"]) - ModelState is Valid (ba7f4ac2)
+2018-12-05T12:26:46.1324808+05:30 0HLIQFR901OGR:00000001 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200 (e28ccfae)
+2018-12-05T12:26:46.1399676+05:30 0HLIQFR901OGR:00000001 [INF] Executed action "Dodos.UI.Controllers.EmployeeController.Get (Dodos.UI)" in 193.5144ms (afa2e885)
+2018-12-05T12:26:46.1744787+05:30 0HLIQFR901OGR:00000001 [INF] Request finished in 546.3956ms 200  (791a596a)
+2018-12-05T12:29:52.6099385+05:30 0HLIQFR901OGU:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Employee/GetAllEmployees   (ca22a1cb)
+2018-12-05T12:29:52.6144750+05:30 0HLIQFR901OGU:00000001 [INF] Executing action method "Dodos.UI.Controllers.EmployeeController.Get (Dodos.UI)" with arguments (["GetAllEmployees"]) - ModelState is Valid (ba7f4ac2)
+2018-12-05T12:29:52.6145651+05:30 0HLIQFR901OGU:00000001 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200 (e28ccfae)
+2018-12-05T12:29:52.6146654+05:30 0HLIQFR901OGU:00000001 [INF] Executed action "Dodos.UI.Controllers.EmployeeController.Get (Dodos.UI)" in 2.4244ms (afa2e885)
+2018-12-05T12:29:52.6148025+05:30 0HLIQFR901OGU:00000001 [INF] Request finished in 4.9058ms 200  (791a596a)
+2018-12-05T12:30:12.1268619+05:30 0HLIQFR901OGU:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Employee/GetAllEmployees   (ca22a1cb)
+2018-12-05T12:30:12.1272076+05:30 0HLIQFR901OGU:00000002 [INF] Executing action method "Dodos.UI.Controllers.EmployeeController.Get (Dodos.UI)" with arguments (["GetAllEmployees"]) - ModelState is Valid (ba7f4ac2)
+2018-12-05T12:30:12.1272731+05:30 0HLIQFR901OGU:00000002 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200 (e28ccfae)
+2018-12-05T12:30:12.1272956+05:30 0HLIQFR901OGU:00000002 [INF] Executed action "Dodos.UI.Controllers.EmployeeController.Get (Dodos.UI)" in 0.2409ms (afa2e885)
+2018-12-05T12:30:12.1273683+05:30 0HLIQFR901OGU:00000002 [INF] Request finished in 0.5467ms 200  (791a596a)
+2018-12-05T12:30:24.0552355+05:30 0HLIQFR901OGU:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Employee/GetAllEmployees   (ca22a1cb)
+2018-12-05T12:30:24.0555847+05:30 0HLIQFR901OGU:00000003 [INF] Executing action method "Dodos.UI.Controllers.EmployeeController.Get (Dodos.UI)" with arguments (["GetAllEmployees"]) - ModelState is Valid (ba7f4ac2)
+2018-12-05T12:30:24.0556290+05:30 0HLIQFR901OGU:00000003 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200 (e28ccfae)
+2018-12-05T12:30:24.0556831+05:30 0HLIQFR901OGU:00000003 [INF] Executed action "Dodos.UI.Controllers.EmployeeController.Get (Dodos.UI)" in 0.1607ms (afa2e885)
+2018-12-05T12:30:24.0557238+05:30 0HLIQFR901OGU:00000003 [INF] Request finished in 0.51ms 200  (791a596a)
+2018-12-05T14:05:30.2973142+05:30 0HLIQHIELQBVM:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Employee/GetAllEmployees   (ca22a1cb)
+2018-12-05T14:05:30.7538087+05:30 0HLIQHIELQBVM:00000001 [INF] Executing action method "Dodos.UI.Controllers.EmployeeController.Get (Dodos.UI)" with arguments (["GetAllEmployees"]) - ModelState is Valid (ba7f4ac2)
+2018-12-05T14:05:30.7619307+05:30 0HLIQHIELQBVM:00000001 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200 (e28ccfae)
+2018-12-05T14:05:30.7695578+05:30 0HLIQHIELQBVM:00000001 [INF] Executed action "Dodos.UI.Controllers.EmployeeController.Get (Dodos.UI)" in 189.2469ms (afa2e885)
+2018-12-05T14:05:30.8057166+05:30 0HLIQHIELQBVM:00000001 [INF] Request finished in 518.9238ms 200  (791a596a)
+2018-12-05T14:06:39.8004154+05:30 0HLIQHIURH2IC:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Employee/GetAllEmployees   (ca22a1cb)
+2018-12-05T14:06:40.7563426+05:30 0HLIQHIURH2IC:00000001 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MaxPoolSize=128 " (9958f5bb)
+2018-12-05T14:10:02.5598498+05:30 0HLIQHKVQ8BA7:00000001 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Login  0 (ca22a1cb)
+2018-12-05T14:10:02.8196019+05:30 0HLIQHKVQ8BA7:00000001 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: "Dodos.UI.Controllers.LoginController.Postcheck (Dodos.UI)
+Dodos.UI.Controllers.LoginController.Post (Dodos.UI)" (ab9a4111)
+2018-12-05T14:10:03.0085944+05:30 0HLIQHKVQ8BA7:00000001 [INF] Request finished in 458.9024ms 500 application/json (791a596a)
+2018-12-05T14:10:24.9873307+05:30  [FTL] Unable to start Kestrel. (fc6a528d)
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5000: address already in use. ---> Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.Internal.AddressInUseException: Error -4091 EADDRINUSE address already in use ---> Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvException: Error -4091 EADDRINUSE address already in use
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.LibuvFunctions.ThrowError(Int32 statusCode)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.LibuvFunctions.tcp_getsockname(UvTcpHandle handle, SockAddr& addr, Int32& namelen)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvTcpHandle.GetSockIPEndPoint()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.ListenTcp(Boolean useFileHandle)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.CreateListenSocket()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.<>c.<StartAsync>b__8_0(Listener listener)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.LibuvThread.CallbackAdapter`1.<>c.<.cctor>b__3_1(Object callback, Object state)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.LibuvThread.DoPostWork()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.ListenerPrimary.<StartAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.LibuvTransport.<BindAsync>d__20.MoveNext()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.LibuvTransport.<BindAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindEndpointAsync>d__5.MoveNext()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindEndpointAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindLocalhostAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.DefaultAddressStrategy.<BindAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<StartAsync>d__21`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.<StartAsync>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.WebHostExtensions.<RunAsync>d__5.MoveNext()
+2018-12-05T14:12:33.7088171+05:30  [FTL] Unable to start Kestrel. (fc6a528d)
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5000: address already in use. ---> Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.Internal.AddressInUseException: Error -4091 EADDRINUSE address already in use ---> Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvException: Error -4091 EADDRINUSE address already in use
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.LibuvFunctions.ThrowError(Int32 statusCode)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.LibuvFunctions.tcp_getsockname(UvTcpHandle handle, SockAddr& addr, Int32& namelen)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvTcpHandle.GetSockIPEndPoint()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.ListenTcp(Boolean useFileHandle)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.CreateListenSocket()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.<>c.<StartAsync>b__8_0(Listener listener)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.LibuvThread.CallbackAdapter`1.<>c.<.cctor>b__3_1(Object callback, Object state)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.LibuvThread.DoPostWork()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.ListenerPrimary.<StartAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.LibuvTransport.<BindAsync>d__20.MoveNext()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.LibuvTransport.<BindAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindEndpointAsync>d__5.MoveNext()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindEndpointAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindLocalhostAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.DefaultAddressStrategy.<BindAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<StartAsync>d__21`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.<StartAsync>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.WebHostExtensions.<RunAsync>d__5.MoveNext()
+2018-12-05T14:13:27.1538205+05:30  [FTL] Unable to start Kestrel. (fc6a528d)
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5000: address already in use. ---> Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.Internal.AddressInUseException: Error -4091 EADDRINUSE address already in use ---> Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvException: Error -4091 EADDRINUSE address already in use
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.LibuvFunctions.ThrowError(Int32 statusCode)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.LibuvFunctions.tcp_getsockname(UvTcpHandle handle, SockAddr& addr, Int32& namelen)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvTcpHandle.GetSockIPEndPoint()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.ListenTcp(Boolean useFileHandle)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.CreateListenSocket()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.<>c.<StartAsync>b__8_0(Listener listener)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.LibuvThread.CallbackAdapter`1.<>c.<.cctor>b__3_1(Object callback, Object state)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.LibuvThread.DoPostWork()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.ListenerPrimary.<StartAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.LibuvTransport.<BindAsync>d__20.MoveNext()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.LibuvTransport.<BindAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindEndpointAsync>d__5.MoveNext()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindEndpointAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindLocalhostAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.DefaultAddressStrategy.<BindAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<StartAsync>d__21`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.<StartAsync>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.WebHostExtensions.<RunAsync>d__5.MoveNext()
+2018-12-05T18:06:48.2874388+05:30  [FTL] Unable to start Kestrel. (fc6a528d)
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5000: address already in use. ---> Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.Internal.AddressInUseException: Error -4091 EADDRINUSE address already in use ---> Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvException: Error -4091 EADDRINUSE address already in use
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.LibuvFunctions.ThrowError(Int32 statusCode)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.LibuvFunctions.tcp_getsockname(UvTcpHandle handle, SockAddr& addr, Int32& namelen)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvTcpHandle.GetSockIPEndPoint()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.ListenTcp(Boolean useFileHandle)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.CreateListenSocket()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.<>c.<StartAsync>b__8_0(Listener listener)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.LibuvThread.CallbackAdapter`1.<>c.<.cctor>b__3_1(Object callback, Object state)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.LibuvThread.DoPostWork()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.ListenerPrimary.<StartAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.LibuvTransport.<BindAsync>d__20.MoveNext()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.LibuvTransport.<BindAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindEndpointAsync>d__5.MoveNext()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindEndpointAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindLocalhostAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.DefaultAddressStrategy.<BindAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<StartAsync>d__21`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.<StartAsync>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.WebHostExtensions.<RunAsync>d__5.MoveNext()
+2018-12-05T18:10:34.1033999+05:30 0HLIQLRCODK3R:00000001 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Employee/GetAllEmployees  0 (ca22a1cb)
+2018-12-05T18:10:34.3953603+05:30 0HLIQLRCODK3R:00000001 [INF] Request finished in 304.0626ms 200 text/html (791a596a)
+2018-12-05T18:10:39.1827777+05:30 0HLIQLRCODK3R:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Employee/GetAllEmployees  0 (ca22a1cb)
+2018-12-05T18:10:39.1849885+05:30 0HLIQLRCODK3R:00000002 [INF] Request finished in 2.1799ms 200 text/html (791a596a)
+2018-12-05T18:10:40.1123701+05:30 0HLIQLRCODK3R:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Employee/GetAllEmployees  0 (ca22a1cb)
+2018-12-05T18:10:40.1129023+05:30 0HLIQLRCODK3R:00000003 [INF] Request finished in 0.5684ms 200 text/html (791a596a)
+2018-12-05T18:11:10.3818372+05:30  [FTL] Unable to start Kestrel. (fc6a528d)
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5000: address already in use. ---> Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.Internal.AddressInUseException: Error -4091 EADDRINUSE address already in use ---> Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvException: Error -4091 EADDRINUSE address already in use
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.LibuvFunctions.ThrowError(Int32 statusCode)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.LibuvFunctions.tcp_getsockname(UvTcpHandle handle, SockAddr& addr, Int32& namelen)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvTcpHandle.GetSockIPEndPoint()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.ListenTcp(Boolean useFileHandle)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.CreateListenSocket()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.<>c.<StartAsync>b__8_0(Listener listener)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.LibuvThread.CallbackAdapter`1.<>c.<.cctor>b__3_1(Object callback, Object state)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.LibuvThread.DoPostWork()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.ListenerPrimary.<StartAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.LibuvTransport.<BindAsync>d__20.MoveNext()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.LibuvTransport.<BindAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindEndpointAsync>d__5.MoveNext()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindEndpointAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindLocalhostAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.DefaultAddressStrategy.<BindAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<StartAsync>d__21`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.<StartAsync>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.WebHostExtensions.<RunAsync>d__5.MoveNext()
+2018-12-05T18:12:09.8527884+05:30 0HLIQLRCODK3R:00000004 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/Employee/GetAllEmployees  0 (ca22a1cb)
+2018-12-05T18:12:09.8535560+05:30 0HLIQLRCODK3R:00000004 [INF] Request finished in 0.8841ms 200 text/html (791a596a)
+2018-12-05T18:15:31.9919967+05:30 0HLIQLTUC98ET:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Employee/GetAllEmployees   (ca22a1cb)
+2018-12-05T18:16:07.4016792+05:30 0HLIQLTUC98ET:00000001 [INF] Executing action method "Dodos.UI.Controllers.EmployeeController.Get (Dodos.UI)" with arguments (["GetAllEmployees"]) - ModelState is Valid (ba7f4ac2)
+2018-12-05T18:16:17.7951998+05:30 0HLIQLTUC98ET:00000001 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200 (e28ccfae)
+2018-12-05T18:16:17.7982931+05:30 0HLIQLTUC98ET:00000001 [INF] Executed action "Dodos.UI.Controllers.EmployeeController.Get (Dodos.UI)" in 45587.3371ms (afa2e885)
+2018-12-05T18:16:37.3444711+05:30 0HLIQLTUC98ET:00000001 [INF] Request finished in 65359.092ms 200  (791a596a)
+2018-12-05T18:20:41.1363915+05:30  [FTL] Unable to start Kestrel. (fc6a528d)
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5000: address already in use. ---> Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.Internal.AddressInUseException: Error -4091 EADDRINUSE address already in use ---> Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvException: Error -4091 EADDRINUSE address already in use
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.LibuvFunctions.ThrowError(Int32 statusCode)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.LibuvFunctions.tcp_getsockname(UvTcpHandle handle, SockAddr& addr, Int32& namelen)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvTcpHandle.GetSockIPEndPoint()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.ListenTcp(Boolean useFileHandle)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.CreateListenSocket()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.<>c.<StartAsync>b__8_0(Listener listener)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.LibuvThread.CallbackAdapter`1.<>c.<.cctor>b__3_1(Object callback, Object state)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.LibuvThread.DoPostWork()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.ListenerPrimary.<StartAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.LibuvTransport.<BindAsync>d__20.MoveNext()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.LibuvTransport.<BindAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindEndpointAsync>d__5.MoveNext()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindEndpointAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindLocalhostAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.DefaultAddressStrategy.<BindAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<StartAsync>d__21`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.<StartAsync>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.WebHostExtensions.<RunAsync>d__5.MoveNext()
+2018-12-05T18:21:00.4084865+05:30  [FTL] Unable to start Kestrel. (fc6a528d)
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5000: address already in use. ---> Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.Internal.AddressInUseException: Error -4091 EADDRINUSE address already in use ---> Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvException: Error -4091 EADDRINUSE address already in use
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.LibuvFunctions.ThrowError(Int32 statusCode)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.LibuvFunctions.tcp_getsockname(UvTcpHandle handle, SockAddr& addr, Int32& namelen)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvTcpHandle.GetSockIPEndPoint()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.ListenTcp(Boolean useFileHandle)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.CreateListenSocket()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.<>c.<StartAsync>b__8_0(Listener listener)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.LibuvThread.CallbackAdapter`1.<>c.<.cctor>b__3_1(Object callback, Object state)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.LibuvThread.DoPostWork()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.ListenerPrimary.<StartAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.LibuvTransport.<BindAsync>d__20.MoveNext()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.LibuvTransport.<BindAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindEndpointAsync>d__5.MoveNext()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindEndpointAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindLocalhostAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.DefaultAddressStrategy.<BindAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.<BindAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<StartAsync>d__21`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.<StartAsync>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.WebHostExtensions.<RunAsync>d__5.MoveNext()
+2018-12-05T18:21:38.3108959+05:30  [FTL] Unable to start Kestrel. (fc6a528d)
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5000: address already in use. ---> Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.Internal.AddressInUseException: Error -4091 EADDRINUSE address already in use ---> Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvException: Error -4091 EADDRINUSE address already in use
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.LibuvFunctions.ThrowError(Int32 statusCode)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvTcpHandle.GetSockIPEndPoint()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.ListenTcp(Boolean useFileHandle)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.<>c.<StartAsync>b__8_0(Listener listener)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.LibuvThread.DoPostWork()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.ListenerPrimary.StartAsync(String pipeName, Byte[] pipeMessage, IEndPointInformation endPointInformation, LibuvThread thread)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.LibuvTransport.BindAsync()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.LibuvTransport.BindAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindLocalhostAsync(ServerAddress address, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.DefaultAddressStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, List`1 listenOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+2018-12-05T18:21:47.2718816+05:30  [FTL] Unable to start Kestrel. (fc6a528d)
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5000: address already in use. ---> Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.Internal.AddressInUseException: Error -4091 EADDRINUSE address already in use ---> Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvException: Error -4091 EADDRINUSE address already in use
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.LibuvFunctions.ThrowError(Int32 statusCode)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Networking.UvTcpHandle.GetSockIPEndPoint()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.ListenTcp(Boolean useFileHandle)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.Listener.<>c.<StartAsync>b__8_0(Listener listener)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.LibuvThread.DoPostWork()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.Internal.ListenerPrimary.StartAsync(String pipeName, Byte[] pipeMessage, IEndPointInformation endPointInformation, LibuvThread thread)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.LibuvTransport.BindAsync()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.LibuvTransport.BindAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindLocalhostAsync(ServerAddress address, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.DefaultAddressStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, List`1 listenOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+2018-12-05T18:21:52.6178252+05:30 0HLIQM1CPQLHP:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Employee/GetAllEmployees   (ca22a1cb)
+2018-12-05T18:27:05.4996198+05:30 0HLIQM4I8RJ0E:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Employee/GetAllEmployees   (ca22a1cb)
+2018-12-05T18:27:23.9867191+05:30 0HLIQM4I8RJ0E:00000001 [INF] Executing action method "Dodos.UI.Controllers.EmployeeController.Get (Dodos.UI)" with arguments (["GetAllEmployees"]) - ModelState is Valid (ba7f4ac2)
+2018-12-05T18:27:30.0907844+05:30 0HLIQM4I8RJ0E:00000001 [INF] Executing HttpStatusCodeResult, setting HTTP status code 200 (e28ccfae)
+2018-12-05T18:27:30.0938702+05:30 0HLIQM4I8RJ0E:00000001 [INF] Executed action "Dodos.UI.Controllers.EmployeeController.Get (Dodos.UI)" in 24385.9787ms (afa2e885)
+2018-12-05T18:27:32.5958021+05:30 0HLIQM4I8RJ0E:00000001 [INF] Request finished in 27101.9975ms 200  (791a596a)
+2018-12-05T18:29:48.6775380+05:30 0HLIQM631RDSP:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Employee   (ca22a1cb)
+2018-12-05T18:30:15.5093562+05:30 0HLIQM631RDSP:00000001 [INF] Executing action method "Dodos.UI.Controllers.EmployeeController.GetAllEmployees (Dodos.UI)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2018-12-05T18:33:55.2818739+05:30 0HLIQM631RDSP:00000001 [INF] Entity Framework Core "2.0.0-rtm-26452" initialized '"ApplicationContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MaxPoolSize=128 " (9958f5bb)
+2018-12-05T18:33:55.8057657+05:30 0HLIQM631RDSP:00000001 [INF] Executed DbCommand ("34"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[EmployeeID], [e].[DepartmentID], [e].[EmpNo], [e].[EmployeeAddress], [e].[EmployeeContactNo], [e].[EmployeeName]
+FROM [Employees] AS [e]" (0723d8ff)
+2018-12-05T18:33:55.8948889+05:30 0HLIQM631RDSP:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-12-05T18:33:56.0586425+05:30 0HLIQM631RDSP:00000001 [INF] Executed action "Dodos.UI.Controllers.EmployeeController.GetAllEmployees (Dodos.UI)" in 247126.391ms (afa2e885)
+2018-12-05T18:33:56.0747843+05:30 0HLIQM631RDSP:00000001 [INF] Request finished in 247402.9217ms 200 application/json; charset=utf-8 (791a596a)

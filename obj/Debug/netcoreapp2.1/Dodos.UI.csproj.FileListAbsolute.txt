@@ -1,0 +1,66 @@
+E:\Maran\Dodos-core\Dodos.UI\obj\Debug\netcoreapp2.1\Dodos.UI.csprojAssemblyReference.cache
+E:\Maran\Dodos-core\Dodos.UI\obj\Debug\netcoreapp2.1\Dodos.UI.csproj.CoreCompileInputs.cache
+E:\Maran\Dodos-core\Dodos.UI\obj\Debug\netcoreapp2.1\Dodos.UI.AssemblyInfoInputs.cache
+E:\Maran\Dodos-core\Dodos.UI\obj\Debug\netcoreapp2.1\Dodos.UI.AssemblyInfo.cs
+E:\Maran\Dodos-core\Dodos.UI\bin\Debug\netcoreapp2.1\Dodos.UI.deps.json
+E:\Maran\Dodos-core\Dodos.UI\bin\Debug\netcoreapp2.1\Dodos.UI.runtimeconfig.json
+E:\Maran\Dodos-core\Dodos.UI\bin\Debug\netcoreapp2.1\Dodos.UI.runtimeconfig.dev.json
+E:\Maran\Dodos-core\Dodos.UI\bin\Debug\netcoreapp2.1\Dodos.UI.dll
+E:\Maran\Dodos-core\Dodos.UI\bin\Debug\netcoreapp2.1\Dodos.UI.pdb
+E:\Maran\Dodos-core\Dodos.UI\obj\Debug\netcoreapp2.1\Dodos.UI.dll
+E:\Maran\Dodos-core\Dodos.UI\obj\Debug\netcoreapp2.1\Dodos.UI.pdb
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted\Dodos.UI\bin\Debug\netcoreapp2.1\Dodos.UI.deps.json
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted\Dodos.UI\bin\Debug\netcoreapp2.1\Dodos.UI.runtimeconfig.json
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted\Dodos.UI\bin\Debug\netcoreapp2.1\Dodos.UI.runtimeconfig.dev.json
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted\Dodos.UI\bin\Debug\netcoreapp2.1\Dodos.UI.dll
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted\Dodos.UI\bin\Debug\netcoreapp2.1\Dodos.UI.pdb
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted\Dodos.UI\obj\Debug\netcoreapp2.1\Dodos.UI.csprojAssemblyReference.cache
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted\Dodos.UI\obj\Debug\netcoreapp2.1\Dodos.UI.csproj.CoreCompileInputs.cache
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted\Dodos.UI\obj\Debug\netcoreapp2.1\Dodos.UI.AssemblyInfoInputs.cache
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted\Dodos.UI\obj\Debug\netcoreapp2.1\Dodos.UI.AssemblyInfo.cs
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted\Dodos.UI\obj\Debug\netcoreapp2.1\Dodos.UI.dll
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted\Dodos.UI\obj\Debug\netcoreapp2.1\Dodos.UI.pdb
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted - Copy\Dodos.UI\bin\Debug\netcoreapp2.1\Dodos.UI.deps.json
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted - Copy\Dodos.UI\bin\Debug\netcoreapp2.1\Dodos.UI.runtimeconfig.json
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted - Copy\Dodos.UI\bin\Debug\netcoreapp2.1\Dodos.UI.runtimeconfig.dev.json
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted - Copy\Dodos.UI\bin\Debug\netcoreapp2.1\Dodos.UI.dll
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted - Copy\Dodos.UI\bin\Debug\netcoreapp2.1\Dodos.UI.pdb
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted - Copy\Dodos.UI\obj\Debug\netcoreapp2.1\Dodos.UI.csprojAssemblyReference.cache
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted - Copy\Dodos.UI\obj\Debug\netcoreapp2.1\Dodos.UI.csproj.CoreCompileInputs.cache
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted - Copy\Dodos.UI\obj\Debug\netcoreapp2.1\Dodos.UI.AssemblyInfoInputs.cache
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted - Copy\Dodos.UI\obj\Debug\netcoreapp2.1\Dodos.UI.AssemblyInfo.cs
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted - Copy\Dodos.UI\obj\Debug\netcoreapp2.1\Dodos.UI.dll
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted - Copy\Dodos.UI\obj\Debug\netcoreapp2.1\Dodos.UI.pdb
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted - Copy - Copy\Dodos.UI\bin\Debug\netcoreapp2.1\Dodos.UI.deps.json
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted - Copy - Copy\Dodos.UI\bin\Debug\netcoreapp2.1\Dodos.UI.runtimeconfig.json
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted - Copy - Copy\Dodos.UI\bin\Debug\netcoreapp2.1\Dodos.UI.runtimeconfig.dev.json
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted - Copy - Copy\Dodos.UI\bin\Debug\netcoreapp2.1\Dodos.UI.dll
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted - Copy - Copy\Dodos.UI\bin\Debug\netcoreapp2.1\Dodos.UI.pdb
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted - Copy - Copy\Dodos.UI\obj\Debug\netcoreapp2.1\Dodos.UI.csprojAssemblyReference.cache
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted - Copy - Copy\Dodos.UI\obj\Debug\netcoreapp2.1\Dodos.UI.csproj.CoreCompileInputs.cache
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted - Copy - Copy\Dodos.UI\obj\Debug\netcoreapp2.1\Dodos.UI.AssemblyInfoInputs.cache
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted - Copy - Copy\Dodos.UI\obj\Debug\netcoreapp2.1\Dodos.UI.AssemblyInfo.cs
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted - Copy - Copy\Dodos.UI\obj\Debug\netcoreapp2.1\Dodos.UI.dll
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted - Copy - Copy\Dodos.UI\obj\Debug\netcoreapp2.1\Dodos.UI.pdb
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted1\Dodos.UI\bin\Debug\netcoreapp2.1\Dodos.UI.deps.json
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted1\Dodos.UI\bin\Debug\netcoreapp2.1\Dodos.UI.runtimeconfig.json
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted1\Dodos.UI\bin\Debug\netcoreapp2.1\Dodos.UI.runtimeconfig.dev.json
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted1\Dodos.UI\bin\Debug\netcoreapp2.1\Dodos.UI.dll
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted1\Dodos.UI\bin\Debug\netcoreapp2.1\Dodos.UI.pdb
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted1\Dodos.UI\obj\Debug\netcoreapp2.1\Dodos.UI.csprojAssemblyReference.cache
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted1\Dodos.UI\obj\Debug\netcoreapp2.1\Dodos.UI.csproj.CoreCompileInputs.cache
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted1\Dodos.UI\obj\Debug\netcoreapp2.1\Dodos.UI.AssemblyInfoInputs.cache
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted1\Dodos.UI\obj\Debug\netcoreapp2.1\Dodos.UI.AssemblyInfo.cs
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted1\Dodos.UI\obj\Debug\netcoreapp2.1\Dodos.UI.dll
+E:\Maran\Dodos_Backup\12-11-18\LoginCompleted1\Dodos.UI\obj\Debug\netcoreapp2.1\Dodos.UI.pdb
+E:\DODOS_Project\Dodos.UI\obj\Debug\netcoreapp2.1\Dodos.UI.csprojAssemblyReference.cache
+E:\DODOS_Project\Dodos.UI\obj\Debug\netcoreapp2.1\Dodos.UI.csproj.CoreCompileInputs.cache
+E:\DODOS_Project\Dodos.UI\obj\Debug\netcoreapp2.1\Dodos.UI.AssemblyInfoInputs.cache
+E:\DODOS_Project\Dodos.UI\obj\Debug\netcoreapp2.1\Dodos.UI.AssemblyInfo.cs
+E:\DODOS_Project\Dodos.UI\obj\Debug\netcoreapp2.1\Dodos.UI.dll
+E:\DODOS_Project\Dodos.UI\obj\Debug\netcoreapp2.1\Dodos.UI.pdb
+E:\DODOS_Project\Dodos.UI\bin\Debug\netcoreapp2.1\Dodos.UI.deps.json
+E:\DODOS_Project\Dodos.UI\bin\Debug\netcoreapp2.1\Dodos.UI.runtimeconfig.json
+E:\DODOS_Project\Dodos.UI\bin\Debug\netcoreapp2.1\Dodos.UI.runtimeconfig.dev.json
+E:\DODOS_Project\Dodos.UI\bin\Debug\netcoreapp2.1\Dodos.UI.dll
+E:\DODOS_Project\Dodos.UI\bin\Debug\netcoreapp2.1\Dodos.UI.pdb
