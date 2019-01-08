@@ -9,7 +9,7 @@ namespace Dodos.UI.Models {
          [Key]
         public int id { get; set; }
         public string name { get; set; }
-        public int stateid { get; set; }
+        public int state_id { get; set; }
         public bool cstatus { get; set; }  
         
     }

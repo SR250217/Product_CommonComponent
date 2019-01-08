@@ -20,4 +20,13 @@
       <DotNetCliToolReference Include="Microsoft.DotNet.Watcher.Tools" Version="2.0.0" />
   </ItemGroup>
 
+  <!-- <ItemGroup>
+    <ProjectReference Include="F:\Password_Encrypt_Decrypt\Password_Encrypt_Decrypt.csproj" />
+  </ItemGroup> -->
+  <ItemGroup>
+  <Reference Include="Password_Encrypt_Decrypt">
+    <HintPath>..\Dodos.UI\obj\Debug\netcoreapp2.1\Password_Encrypt_Decrypt.dll</HintPath>
+  </Reference>
+</ItemGroup>
+
 </Project>

@@ -15,7 +15,7 @@ namespace Dodos.UI.Repositories.Imp
 
         public HashSet<CitiesModel> getCities(int parm_stateid)
         {
-            return new HashSet<CitiesModel>(this.dbcontext.tblCities.Where(x => x.cstatus == true && x.stateid == parm_stateid));
+            return new HashSet<CitiesModel>(this.dbcontext.tblCities.Where(x => x.cstatus == true && x.state_id == parm_stateid));
         }
     }
 }

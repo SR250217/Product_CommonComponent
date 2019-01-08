@@ -11,7 +11,7 @@ namespace Dodos.UI.Controllers
 {
     [AllowAnonymous]
     [Produces ("application/json")]
-    [Route ("api/Login")]
+    [Route ("api/[controller]")]
 
     public class LoginController : Controller {
         private readonly Loginservices loginservices;
@@ -21,7 +21,7 @@ namespace Dodos.UI.Controllers
             this.Connectionservices = concservice;
         }
 
-        [HttpGet]
+        //[HttpGet("GetLoginDetails")]
         public IActionResult GetLoginDetails (string AppUserName, string AppUserPassword, string productcode) {
             Common_ConnectionModel objconnectionmodel = new Common_ConnectionModel();
             objconnectionmodel.ProductCode = productcode;
@@ -34,7 +34,7 @@ namespace Dodos.UI.Controllers
             return new OkObjectResult (loginservices.getlogindetails (objAppUser.AppUserName, objAppUser.AppUserPassword));
         }
 
-        [HttpPost]
+        [HttpPost("GetLoginDetailspost")]
         public IActionResult Post ([FromBody] LoginModel loginModel) {
             var result = GetLoginDetails (loginModel.AppUserName,loginModel.AppUserPassword,"KS0001");
 

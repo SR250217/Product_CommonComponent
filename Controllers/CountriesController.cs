@@ -11,7 +11,8 @@ using Microsoft.EntityFrameworkCore;
 namespace Dodos.UI.Controllers
 {
     [Produces("application/json")]
-    [Route("api/Countries")]
+    [Route("api/[controller]")]
+    [Authorize]
     public class CountriesController : Controller
     {
         private readonly Countriesservices countriesservice;
@@ -27,7 +28,7 @@ namespace Dodos.UI.Controllers
         // {
         //     this.countriesservice = countriesservice;
         // }
-        [HttpGet]
+        [HttpGet("GetAllCountries")]
         public IActionResult GetAllCountries()
         {
             return new OkObjectResult(countriesservice.getCountries());

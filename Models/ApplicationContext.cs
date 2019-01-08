@@ -33,7 +33,7 @@ namespace Dodos.UI.Models
         public DbSet<StatesModel> tblStates { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            string cn = @"server=192.168.1.100; database=Dodos_reloaded_2; uid=dodos_users; pwd=Welcome2018;";
+            string cn = @"server=192.168.1.100;  database=Dodos_reloaded_2; uid=dodos_users; pwd=Welcome2018;";
             optionsBuilder.UseSqlServer(cn);
 
             base.OnConfiguring(optionsBuilder);

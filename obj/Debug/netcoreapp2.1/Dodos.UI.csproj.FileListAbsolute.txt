@@ -64,3 +64,6 @@ E:\DODOS_Project\Dodos.UI\bin\Debug\netcoreapp2.1\Dodos.UI.runtimeconfig.json
 E:\DODOS_Project\Dodos.UI\bin\Debug\netcoreapp2.1\Dodos.UI.runtimeconfig.dev.json
 E:\DODOS_Project\Dodos.UI\bin\Debug\netcoreapp2.1\Dodos.UI.dll
 E:\DODOS_Project\Dodos.UI\bin\Debug\netcoreapp2.1\Dodos.UI.pdb
+E:\DODOS_Project\Dodos.UI\bin\Debug\netcoreapp2.1\Password_Encrypt_Decrypt.dll
+E:\DODOS_Project\Dodos.UI\obj\Debug\netcoreapp2.1\Dodos.UI.csproj.CopyComplete
+E:\DODOS_Project\Dodos.UI\bin\Debug\netcoreapp2.1\Password_Encrypt_Decrypt.pdb
